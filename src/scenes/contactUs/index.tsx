@@ -27,7 +27,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
     <section id="faqs" className='bg-[#C89F79] mx-auto w-full pt-24 pb-32'>
         <motion.div
          onViewportEnter={() => setSelectedPage(SelectedPage.Faqs)}
-         className='xs:mx-[30px] lg:mx-[120px]'
+         className='gs8:mx-[30px] xs:mx-[30px] lg:mx-[120px]'
         >
             {/* HEADER HERE */}
             <motion.div
@@ -49,7 +49,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                     </p>
                 </div>
                 <div>
-                    <img src={faqs} alt="" className='xs:hidden lg:h-[100px] lg:w-[800px]' />
+                    <img src={faqs} alt="" className='gs8:hidden xs:hidden lg:h-[100px] lg:w-[800px]' />
                 </div>
             </div>
                 

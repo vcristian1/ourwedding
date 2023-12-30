@@ -22,7 +22,8 @@ module.exports = {
           "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
         "mobile-home": "url('./assets/HomePageGraphic.png')",
         "main": "url('./assets/main.svg')",
-        "mainmobile": "url('./assets/mainmobile.svg')"
+        "mainmobile": "url('./assets/mainmobile.svg')",
+        "mainmobiles8": "url('./assets/mainmobileS8.svg')"
       }),
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
@@ -37,6 +38,7 @@ module.exports = {
       },
     },
     screens: {
+      gs8: "360px",
       xs: "370px",
       ip12: "390px",
       xr: "414px",
