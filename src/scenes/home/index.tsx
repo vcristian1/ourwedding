@@ -10,7 +10,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
      id="home"
-     className="gap-16 gs8:bg-mainmobiles8 gs8:pt-[370px] xs:pt-[420px] xs:bg-mainmobile xr:pt-[400px] ip14:pt-[625px] ip12:pt-[400px] sm:bg-mainipad sm:pt-[725px] ipa:bg-mainipadair ipa:pt-[875px] ipp:bg-mainipadpro ipp:pt-[1050px] sp7:bg-mainsp7 sp7:pt-[1075px] spduo:bg-mainspduo spduo:pt-[445px] gfold:bg-maingalaxyfold gfold:pt-[255px] lg:bg-main lg:pt-[600px] del:bg-maindell xlg:bg-mainhp xlg:pt-[800px] py-10 md:h-full overflow-x-hidden"
+     className="gap-16 gs8:bg-mainmobiles8 gs8:pt-[370px] xs:pt-[420px] xs:bg-mainmobile xr:pt-[400px] ip14:pt-[425px] ip12:pt-[400px] sm:bg-mainipad sm:pt-[725px] ipa:bg-mainipadair ipa:pt-[875px] ipp:bg-mainipadpro ipp:pt-[1050px] sp7:bg-mainsp7 sp7:pt-[1075px] spduo:bg-mainspduo spduo:pt-[445px] gfold:bg-maingalaxyfold gfold:pt-[255px] lg:bg-main lg:pt-[600px] del:bg-maindell xlg:bg-mainhp xlg:pt-[800px] py-10 md:h-full overflow-x-hidden"
     >
         {/* Image and Main Header Here */}
         <motion.div 
@@ -26,7 +26,7 @@ const Home = ({ setSelectedPage }: Props) => {
          }}
         >
             {/* Main Header Here */}
-            <div className="z-10 gs8:basis-4/5 xs:mt-10 xr:mt-18 xs:basis-4/5 mt-40 md:basis-3/5 gfold:basis-4/5 lg:mt-[-250px] ip12:mb-[200px] xr:mb-[200px]">
+            <div className="z-10 gs8:basis-4/5 xs:mt-10 xr:mt-18 xs:basis-4/5 mt-40 md:basis-3/5 gfold:basis-4/5 lg:mt-[-250px] ip12:mb-[200px] xr:mb-[200px] ip14:mb-[200px]">
                 {/* Headings Here */}
                 <motion.div 
                  className="md:-mt-20 text-white "
@@ -40,7 +40,7 @@ const Home = ({ setSelectedPage }: Props) => {
                  }}
                 >
                     <div>
-                        <p className="gfold:text-[18px] gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl sm:text-3xl ipp:text-4xl sp7:text-[38px] lg:text-2xl mb-2">Save the date for</p>
+                        <p className="gfold:text-[18px] gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl sm:text-3xl ipp:text-4xl sp7:text-[38px] lg:text-2xl mb-2">Get ready for a Wedding!</p>
                         <p className="gfold:text-[22px] gs8:text-2xl xs:text-2xl xr:text-3xl ip12:text-2xl sm:text-4xl ipp:text-5xl sp7:text-[42px] lg:text-6xl">Cristian & Jacqueline</p>
                         <p className="gfold:text-[18px] gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl sm:text-3xl ipp:text-4xl sp7:text-[38px] lg:text-2xl mt-2">November 4th 2024</p>
                     </div>
