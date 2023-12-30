@@ -46,6 +46,7 @@ module.exports = {
       gs8: "360px",
       xs: "370px",
       ip12: "390px",
+      pix7: "412px",
       xr: "414px",
       ip14: "430px",
       spduo: "540px",
