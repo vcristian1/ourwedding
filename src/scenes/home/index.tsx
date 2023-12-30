@@ -13,7 +13,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
      id="home"
-     className="gap-16 xs:pt-[420px] xs:bg-mainmobile lg:bg-main py-10 md:h-full"
+     className="gap-16 xs:pt-[420px] xs:bg-mainmobile xr:pt-[600px] ip14:pt-[625px] ip12:pt-[665px] lg:bg-main py-10 md:h-full"
     >
         {/* Image and Main Header Here */}
         <motion.div 
@@ -29,10 +29,10 @@ const Home = ({ setSelectedPage }: Props) => {
          }}
         >
             {/* Main Header Here */}
-            <div className="z-10 xs:mt-10 xs:basis-4/5 mt-40 md:basis-3/5">
+            <div className="z-10 xs:mt-10 xr:mt-18 xs:basis-4/5 mt-40 md:basis-3/5">
                 {/* Headings Here */}
                 <motion.div 
-                 className="md:-mt-20 text-white"
+                 className="md:-mt-20 text-white "
                  initial="hidden"
                  whileInView="visible"
                  viewport={{ once: true, amount: 0.5 }}
@@ -42,9 +42,11 @@ const Home = ({ setSelectedPage }: Props) => {
                     visible: { opacity: 1, x: 0},
                  }}
                 >
-                    <p className="text-1xl lg:text-2xl mb-2">Save the date for</p>
-                    <p className="text-2xl lg:text-6xl">Cristian & Jacqueline</p>
-                    <p className="text-1xl lg:text-2xl mt-2">November 4th 2024</p>
+                    <div>
+                        <p className="xs:text-1xl xr:text-2xl ip12:text-1xl lg:text-2xl mb-2">Save the date for</p>
+                        <p className="xs:text-2xl xr:text-3xl ip12:text-2xl lg:text-6xl">Cristian & Jacqueline</p>
+                        <p className="xs:text-1xl xr:text-2xl ip12:text-1xl lg:text-2xl mt-2">November 4th 2024</p>
+                    </div>
                 </motion.div>
 
                 {/* Action Buttons Here */}
@@ -60,7 +62,7 @@ const Home = ({ setSelectedPage }: Props) => {
                  }}
                  >
                     <button>
-                        <a rel="noreferrer" target="_blank" className='rounded-md bg-[#C89F79] xs:px-4 xs:py-1.5 px-10 py-2 hover:bg-[#77BFA3] hover:text-white transition duration-500 lg:text-[17px]' href="https://drive.google.com/file/d/1XIF_RyEM9fjJJ-9tjhrr_AJfxycsudNi/view?usp=sharing">View Rates</a>
+                        <a rel="noreferrer" target="_blank" className='rounded-md bg-[#C89F79] xs:px-4 xs:py-1.5 xr:px-4 xr:py-2.5 px-10 py-2 ip12:px-4 ip12:py-2 hover:bg-[#77BFA3] hover:text-white transition duration-500 lg:text-[17px]' href="https://drive.google.com/file/d/1XIF_RyEM9fjJJ-9tjhrr_AJfxycsudNi/view?usp=sharing">View Rates</a>
                     </button>
                     <ActionButton 
                      setSelectedPage={setSelectedPage}
