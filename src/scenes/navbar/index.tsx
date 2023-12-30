@@ -4,7 +4,6 @@ import Logo from "../../assets/Logo.svg";
 import Link from "./Link";
 import { SelectedPage } from "../../shared/types";
 import useMediaQuery from "../../hooks/useMediaQuery";
-import ActionButton from "../../shared/ActionButton";
 
 type Props = {
     selectedPage: SelectedPage;

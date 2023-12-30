@@ -1,30 +1,7 @@
 import React from 'react'
-import { BenefitType, SelectedPage } from '../../shared/types';
-import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid";
+import { SelectedPage } from '../../shared/types';
 import { motion } from 'framer-motion';
-import HText from '../../shared/HText';
-import ActionButton from '../../shared/ActionButton';
-import BenefitsPageGraphic from '../../assets/BenefitsPageGraphic.png';
 import Cruise from '../../assets/cruise.png'
-
-// Telling typescript that this is an array with a BenefitType of Object. Always make sure your objects are type'd
-const benefits: Array<BenefitType> = [
-    {
-        icon: <HomeModernIcon className='h-6 w-6' />,
-        title: "State of the Art Facilities",
-        description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
-    },
-    {
-        icon: <UserGroupIcon className='h-6 w-6' />,
-        title: "100's of Diverse Classes",
-        description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
-    },
-    {
-        icon: <AcademicCapIcon className='h-6 w-6' />,
-        title: "Expert and Pro Trainers",
-        description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
-    },
-]
 
 const container = {
     hidden: {},

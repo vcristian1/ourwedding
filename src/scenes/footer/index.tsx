@@ -1,4 +1,3 @@
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import Logo from "../../assets/Logo.svg";
 import { SelectedPage } from "../../shared/types";
 

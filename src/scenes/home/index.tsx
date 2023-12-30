@@ -1,14 +1,7 @@
-import useMediaQuery from "../../hooks/useMediaQuery";
 import ActionButton from "../../shared/ActionButton";
-import HomePageText from "../../assets/HomePageText.png";
-import HomePageGraphic from "../../assets/HomePageGraphic.png";
-import SponsorForbes from "../../assets/SponsorForbes.png";
-import SponsorFortune from "../../assets/SponsorFortune.png";
 import { SelectedPage } from '../../shared/types';
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
-import ReactDOM from 'react-dom';
-import Countdown from 'react-countdown-simple';
+
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
