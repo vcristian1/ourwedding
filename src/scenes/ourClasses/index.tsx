@@ -30,23 +30,23 @@ const OurClasses = ({ setSelectedPage }: Props) => {
        }}
       >
         <div className="md:flex">
-          <div className="w-5/6">
-            <p className="text-2xl md:text-4xl font-bold">The Wedding</p>
-            <p className="py-5 md:text-2xl">
+          <div className="w-5/6 sm:text-center sm:mx-[45px] lg:text-left lg:w-5/6 lg:mx-[5px]">
+            <p className="text-2xl sm:text-3xl md:text-4xl font-bold">The Wedding</p>
+            <p className="py-5 md:text-2xl sm:text-[20px]">
               Monday, November 4th 2024
             </p>
-            <p className="md:text-2xl">
+            <p className="md:text-2xl sm:text-[20px]">
               Tulum, Mexico
             </p>
-            <p className="mt-5 py-5 underline md:text-[17px]">Ceremony</p>
-            <p className="">Dreams Tulum Resort & Spa @ 4 PM</p>
-            <p className="py-5 underline md:text-[17px]">Reception</p>
-            <p className="">TBD</p>
-            <p className="py-5 underline md:text-[17px]">Attire</p>
-            <p className="">Formal Black Tie</p>
+            <p className="mt-5 py-5 underline md:text-[17px] sm:text-[20px]">Ceremony</p>
+            <p className="sm:text-[20px]">Dreams Tulum Resort & Spa @ 4 PM</p>
+            <p className="py-5 underline md:text-[17px] sm:text-[20px]">Reception</p>
+            <p className="sm:text-[20px]">TBD</p>
+            <p className="py-5 underline md:text-[17px] sm:text-[20px]">Attire</p>
+            <p className="sm:text-[20px]">Formal Black Tie</p>
 
           </div>
-          <div className="xs:columns-1 md:columns-3">
+          <div className="xs:columns-1 sm:columns-2 md:columns-3">
             <img src={wedding} alt="" />
             <img src={wedding1} alt="" />
             <img src={wedding2} alt="" />

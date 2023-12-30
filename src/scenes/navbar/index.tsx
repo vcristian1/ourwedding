@@ -48,7 +48,7 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     </div>
                     ) : (
                         // If it is not aboveModeiumScreen then the below code will render for mobile screens
-                        <div className={`${flexBetween} gs8:gap-52 xs:gap-52 ip14:gap-60`}>
+                        <div className={`${flexBetween} gs8:gap-52 xs:gap-52 ip14:gap-60 sm:gap-[260px]`}>
                             <button className="rounded-full p-2" onClick={() => setIsMenuToggled(!isMenuToggled)}>
                                 <Bars3Icon className="h-6 w-6 text-black"/>
                             </button>

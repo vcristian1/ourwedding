@@ -36,16 +36,16 @@ const Benefits = ({ setSelectedPage }: Props) => {
                visible: { opacity: 1, x: 0 },
              }}
             >                    
-                <p className='text-2xl md:text-4xl font-bold'>Our Story</p>
+                <p className='text-2xl md:text-4xl sm:text-4xl font-bold sm:text-center md:text-left'>Our Story</p>
                 <div className='md:flex md:gap-6'>
                     <div className=''>
-                        <p className="my-5 md:text-[17px]">
+                        <p className="my-5 md:text-[17px] sm:text-[20px]">
                         Embark on a journey that began with shy glances at family gatherings, orchestrated by fate through my friend Julius, who's also her cousin. At 18, courage led to a Snapchat exchange, opening the door to a turning point: an invitation to her birthday celebration, marking the start of our adult connection.
                         </p>
-                        <p className="my-5 md:text-[17px]">Our story unfolds through shared experiences—the laughter of our first date at Red Robin, the scenic roads of Colorado on our inaugural road trip, and the warmth of my 21st birthday at Four Roses Pub with her family. Further chapters include our first vacation in Arizona with my family and a Thanksgiving cruise in 2021—a celebration of our commitment to explore the world together.</p>
-                        <p className="my-5 md:text-[17px]">As we stand on the verge of matrimony, these moments, woven into the fabric of our love, resonate deeply. We invite you to join us on this special day, as we exchange vows and step into the next chapter of our journey. Let's revel in the joy of love and shared adventures!</p>
+                        <p className="my-5 md:text-[17px] sm:text-[20px]">Our story unfolds through shared experiences—the laughter of our first date at Red Robin, the scenic roads of Colorado on our inaugural road trip, and the warmth of my 21st birthday at Four Roses Pub with her family. Further chapters include our first vacation in Arizona with my family and a Thanksgiving cruise in 2021—a celebration of our commitment to explore the world together.</p>
+                        <p className="my-5 md:text-[17px] sm:text-[20px]">As we stand on the verge of matrimony, these moments, woven into the fabric of our love, resonate deeply. We invite you to join us on this special day, as we exchange vows and step into the next chapter of our journey. Let's revel in the joy of love and shared adventures!</p>
                     </div>
-                    <div>
+                    <div className='sm:mx-[65px]'>
                         <img src={Cruise} alt="" className='lg:w-[1125px] lg:h-[325px]'/>
                     </div>
                 </div>
