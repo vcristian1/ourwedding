@@ -24,7 +24,10 @@ module.exports = {
         "main": "url('./assets/main.svg')",
         "mainmobile": "url('./assets/mainmobile.svg')",
         "mainmobiles8": "url('./assets/mainmobileS8.svg')",
-        "mainipad": "url('./assets/mainipad.svg')"
+        "mainipad": "url('./assets/mainipad.svg')",
+        "mainipadair": "url('./assets/mainipadair.svg')",
+        "mainipadpro": "url('./assets/mainipadpro.svg')"
+
       }),
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
@@ -46,6 +49,7 @@ module.exports = {
       ip14: "430px",
       sm: "768px",
       ipa: "820px",
+      ipp: "1024px",
       md: "1060px",
       lg: "1425px",
       xlg: "1929px"

@@ -48,11 +48,11 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     </div>
                     ) : (
                         // If it is not aboveModeiumScreen then the below code will render for mobile screens
-                        <div className={`${flexBetween} gs8:gap-52 xs:gap-52 ip14:gap-60 sm:gap-[260px]`}>
+                        <div className={`${flexBetween} gs8:gap-52 xs:gap-52 ip14:gap-60 sm:gap-[260px] ipa:gap-[280px] ipp:gap-[325px]`}>
                             <button className="rounded-full p-2" onClick={() => setIsMenuToggled(!isMenuToggled)}>
-                                <Bars3Icon className="h-6 w-6 text-black"/>
+                                <Bars3Icon className="h-6 w-6 text-black ipp:h-10 ipp:w-10"/>
                             </button>
-                            <img src={Logo} alt="logo" className=""/>   
+                            <img src={Logo} alt="logo" className="ipp:w-[100px] ipp:h-[100px]"/>   
                         </div>
                     )}
             </div>
@@ -68,12 +68,12 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                      onClick={() => setIsMenuToggled(!isMenuToggled)}
                     >
                         <XMarkIcon 
-                         className="h-6 w-6 text-gray-400"
+                         className="h-6 w-6 text-gray-400 ipp:w-[40px] ipp:h-[40px]"
                         />
                     </button>
                 </div>
                 {/* MENU ITEMS */}
-                <div className="ml-[33%] flex flex-col gap-10 text-2xl">
+                <div className="ml-[33%] flex flex-col gap-10 text-2xl ipp:text-3xl">
                     <Link page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                     <Link page="Our Story" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                     <Link page="The Wedding" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
