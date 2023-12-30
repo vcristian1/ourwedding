@@ -47,11 +47,11 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     </div>
                     ) : (
                         // If it is not aboveModeiumScreen then the below code will render for mobile screens
-                        <div className={`${flexBetween} gfold:gap-40 gs8:gap-52 xs:gap-52 sp7:gap-[300px] ip14:gap-60 sm:gap-[260px] ipa:gap-[280px] ipp:gap-[325px] spduo:gap-[340px]`}>
+                        <div className={`${flexBetween} gfold:gap-40 gs8:gap-52 xs:gap-52 sp7:gap-[300px] ip14:gap-60 sm:gap-[260px] ipa:gap-[280px] ip12:gap-[240px] ipp:gap-[325px] spduo:gap-[340px]`}>
                             <button className="rounded-full p-2" onClick={() => setIsMenuToggled(!isMenuToggled)}>
-                                <Bars3Icon className="gfold:h-4 gfold:w-4 h-6 w-6 text-black ipp:h-10 ipp:w-10 sp7:w-[40px] sp7:h-[40px]"/>
+                                <Bars3Icon className="gfold:h-4 gfold:w-4 h-6 w-6 text-black ip12:h-6 ip12:w-6 ipp:h-10 ipp:w-10 sp7:w-[40px] sp7:h-[40px]"/>
                             </button>
-                            <img src={Logo} alt="logo" className="gfold:h-10 gfold:w-10 ipp:w-[100px] ipp:h-[100px] sp7:w-[90px] sp7:h-[90px]"/>   
+                            <img src={Logo} alt="logo" className="gfold:h-10 gfold:w-10 ip12:w-[50px] ip12:h-[50px] ipp:w-[100px] ipp:h-[100px] sp7:w-[90px] sp7:h-[90px]"/>   
                         </div>
                     )}
             </div>
