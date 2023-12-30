@@ -14,7 +14,7 @@ type Props = {
 const OurClasses = ({ setSelectedPage }: Props) => {
   return (
 
-  <section id="thewedding" className="w-full bg-[#C89F79] gs8:py-20 xs:py-20 ipa:py-22 md:py-32">
+  <section id="thewedding" className="w-full bg-[#C89F79] gfold:py-20 gs8:py-20 xs:py-20 ipa:py-22 md:py-32">
     <motion.div
      onViewportEnter={() => setSelectedPage(SelectedPage.TheWedding)}
     >
@@ -31,19 +31,19 @@ const OurClasses = ({ setSelectedPage }: Props) => {
       >
         <div className="md:flex">
           <div className="w-5/6 sm:text-center sm:mx-[45px] ipa:mx-[55px] ipp:mx-[65px] lg:text-left lg:w-5/6 lg:mx-[5px]">
-            <p className="text-2xl sm:text-3xl md:text-4xl ipp:text-5xl font-bold">The Wedding</p>
-            <p className="py-5 md:text-2xl sm:text-[20px] ipp:text-[22px]">
+            <p className="text-2xl sm:text-3xl md:text-4xl ipp:text-5xl sp7:text-[40px] font-bold">The Wedding</p>
+            <p className="py-5 md:text-2xl sm:text-[20px] ipp:text-[22px] sp7:text-[24px]">
               Monday, November 4th 2024
             </p>
-            <p className="md:text-2xl sm:text-[20px] ipp:text-[22px]">
+            <p className="md:text-2xl sm:text-[20px] ipp:text-[22px] sp7:text-[24px]">
               Tulum, Mexico
             </p>
-            <p className="mt-5 py-5 underline md:text-[17px] sm:text-[20px] ipp:text-[22px]">Ceremony</p>
-            <p className="sm:text-[20px] ipp:text-[22px]">Dreams Tulum Resort & Spa @ 4 PM</p>
-            <p className="py-5 underline md:text-[17px] sm:text-[20px] ipp:text-[22px]">Reception</p>
-            <p className="sm:text-[20px] ipp:text-[22px]">TBD</p>
-            <p className="py-5 underline md:text-[17px] sm:text-[20px] ipp:text-[22px]">Attire</p>
-            <p className="sm:text-[20px] ipp:text-[22px]">Formal Black Tie</p>
+            <p className="mt-5 py-5 underline md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px]">Ceremony</p>
+            <p className="sm:text-[20px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px]">Dreams Tulum Resort & Spa @ 4 PM</p>
+            <p className="py-5 underline md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px]">Reception</p>
+            <p className="sm:text-[20px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px]">TBD</p>
+            <p className="py-5 underline md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px]">Attire</p>
+            <p className="sm:text-[20px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px]">Formal Black Tie</p>
 
           </div>
           <div className="xs:columns-1 sm:columns-2 md:columns-3">

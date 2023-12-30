@@ -26,8 +26,10 @@ module.exports = {
         "mainmobiles8": "url('./assets/mainmobileS8.svg')",
         "mainipad": "url('./assets/mainipad.svg')",
         "mainipadair": "url('./assets/mainipadair.svg')",
-        "mainipadpro": "url('./assets/mainipadpro.svg')"
-
+        "mainipadpro": "url('./assets/mainipadpro.svg')",
+        "mainsp7": "url('./assets/mainsp7.svg')",
+        "mainspduo": "url('./assets/mainspduo.svg')",
+        "maingalaxyfold": "url('./assets/maingalaxyfold.svg')"
       }),
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
@@ -42,17 +44,25 @@ module.exports = {
       },
     },
     screens: {
+      gfold: "280px",
       gs8: "360px",
       xs: "370px",
       ip12: "390px",
       xr: "414px",
       ip14: "430px",
+      spduo: "540px",
       sm: "768px",
       ipa: "820px",
+      sp7: "912px",
       ipp: "1024px",
       md: "1060px",
       lg: "1425px",
-      xlg: "1929px"
+      del: "1519px",
+      xlg: "1929px",
+      imacretina21: "2048px",
+      imacretina: "2240px",
+      imacretina2016: "2560px",
+      imacpro: "3200px",
     },
   },
   plugins: [],

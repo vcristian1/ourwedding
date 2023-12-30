@@ -13,7 +13,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
      id="home"
-     className="gap-16 gs8:bg-mainmobiles8 gs8:pt-[370px] xs:pt-[420px] xs:bg-mainmobile xr:pt-[600px] ip14:pt-[625px] ip12:pt-[665px] sm:bg-mainipad sm:pt-[725px] ipa:bg-mainipadair ipa:pt-[875px] ipp:bg-mainipadpro ipp:pt-[1050px] lg:bg-main py-10 md:h-full"
+     className="gap-16 gs8:bg-mainmobiles8 gs8:pt-[370px] xs:pt-[420px] xs:bg-mainmobile xr:pt-[600px] ip14:pt-[625px] ip12:pt-[665px] sm:bg-mainipad sm:pt-[725px] ipa:bg-mainipadair ipa:pt-[875px] ipp:bg-mainipadpro ipp:pt-[1050px] sp7:bg-mainsp7 sp7:pt-[1075px] spduo:bg-mainspduo spduo:pt-[445px] gfold:bg-maingalaxyfold gfold:pt-[255px] lg:bg-main lg:pt-[600px] py-10 md:h-full"
     >
         {/* Image and Main Header Here */}
         <motion.div 
@@ -29,7 +29,7 @@ const Home = ({ setSelectedPage }: Props) => {
          }}
         >
             {/* Main Header Here */}
-            <div className="z-10 gs8:basis-4/5 xs:mt-10 xr:mt-18 xs:basis-4/5 mt-40 md:basis-3/5 lg:mt-[-250px]">
+            <div className="z-10 gs8:basis-4/5 xs:mt-10 xr:mt-18 xs:basis-4/5 mt-40 md:basis-3/5 gfold:basis-4/5 lg:mt-[-250px]">
                 {/* Headings Here */}
                 <motion.div 
                  className="md:-mt-20 text-white "
@@ -43,15 +43,15 @@ const Home = ({ setSelectedPage }: Props) => {
                  }}
                 >
                     <div>
-                        <p className="gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl sm:text-3xl ipp:text-4xl lg:text-2xl mb-2">Save the date for</p>
-                        <p className="gs8:text-2xl xs:text-2xl xr:text-3xl ip12:text-2xl sm:text-4xl ipp:text-5xl lg:text-6xl">Cristian & Jacqueline</p>
-                        <p className="gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl sm:text-3xl ipp:text-4xl lg:text-2xl mt-2">November 4th 2024</p>
+                        <p className="gfold:text-[18px] gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl sm:text-3xl ipp:text-4xl sp7:text-[38px] lg:text-2xl mb-2">Save the date for</p>
+                        <p className="gfold:text-[22px] gs8:text-2xl xs:text-2xl xr:text-3xl ip12:text-2xl sm:text-4xl ipp:text-5xl sp7:text-[42px] lg:text-6xl">Cristian & Jacqueline</p>
+                        <p className="gfold:text-[18px] gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl sm:text-3xl ipp:text-4xl sp7:text-[38px] lg:text-2xl mt-2">November 4th 2024</p>
                     </div>
                 </motion.div>
 
                 {/* Action Buttons Here */}
                 <motion.div 
-                 className="mt-8 flex items-center gap-8 md:justify-start"
+                 className="mt-8 flex items-center gap-8 md:justify-start gfold:basis-4/5"
                  initial="hidden"
                  whileInView="visible"
                  viewport={{ once: true, amount: 0.5 }}
@@ -62,7 +62,7 @@ const Home = ({ setSelectedPage }: Props) => {
                  }}
                  >
                     <button>
-                        <a rel="noreferrer" target="_blank" className='rounded-md bg-[#C89F79] gs8:px-3 gs8:py-1.5 xs:px-4 xs:py-1.5 xr:px-4 xr:py-2.5 px-10 py-2 ip12:px-4 ip12:py-2 sm:px-10 sm:py-3.5 hover:bg-[#77BFA3] sm:text-[18px] ipp:text-[20px] hover:text-white transition duration-500 lg:text-[17px]' href="https://drive.google.com/file/d/1XIF_RyEM9fjJJ-9tjhrr_AJfxycsudNi/view?usp=sharing">View Rates</a>
+                        <a rel="noreferrer" target="_blank" className='rounded-md bg-[#C89F79] gfold:text-[12px] gfold:px-[4px] gfold:py-1.5 gs8:px-3 gs8:py-1.5 xs:px-4 xs:py-1.5 xr:px-4 xr:py-2.5 px-10 py-2 ip12:px-4 ip12:py-2 sm:px-10 sm:py-3.5 hover:bg-[#77BFA3] sm:text-[18px] ipp:text-[20px] sp7:text-[22px] hover:text-white transition duration-500 lg:text-[17px]' href="https://drive.google.com/file/d/1XIF_RyEM9fjJJ-9tjhrr_AJfxycsudNi/view?usp=sharing">View Rates</a>
                     </button>
                     <ActionButton 
                      setSelectedPage={setSelectedPage}
