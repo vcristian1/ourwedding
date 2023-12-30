@@ -20,12 +20,13 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
   return (
     <nav>
         <div
-         className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-4 border-b-[1.5px] border-black shadow-xl`} 
+         className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-4 border-b-[1.5px] border-black shadow-xl overflow-x-hidden`} 
         >
           <div className={`${flexBetween} mx-auto w-5/6`}>
             {/* Name and Menu Icon within this container */}
             <div className={`${flexBetween} w-full gap-16`}>
                 {/* Left Side */}
+
                 {/* Right Side */}
 
                 {isAboveMediumScreens ? (
@@ -37,14 +38,12 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                             <Link page="The Wedding" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                             <Link page="Registry" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                             <Link page="FAQS" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
-
                         </div>
 
                         {/* Inner Right Side (Sign In and Become a Member buttons)*/}
                         <div className={`${flexBetween} gap-2 text-sm`}>
                             <img src={Logo} alt="logo" />   
                         </div>
-
                     </div>
                     ) : (
                         // If it is not aboveModeiumScreen then the below code will render for mobile screens

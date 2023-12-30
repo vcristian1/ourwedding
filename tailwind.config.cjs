@@ -29,18 +29,16 @@ module.exports = {
         "mainipadpro": "url('./assets/mainipadpro.svg')",
         "mainsp7": "url('./assets/mainsp7.svg')",
         "mainspduo": "url('./assets/mainspduo.svg')",
-        "maingalaxyfold": "url('./assets/maingalaxyfold.svg')"
+        "maingalaxyfold": "url('./assets/maingalaxyfold.svg')",
+        "maindell": "url('./assets/maindell.svg')",
+        "mainhp": "url('./assets/mainhp.svg')"
+
       }),
       fontFamily: {
-        dmsans: ["DM Sans", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"],
+        cenzit: ["Cenzit"],
+  
       },
       content: {
-        evolvetext: "url('./assets/EvolveText.png')",
-        abstractwaves: "url('./assets/AbstractWaves.png')",
-        sparkles: "url('./assets/Sparkles.png')",
-        circles: "url('./assets/Circles.png')",
-        
       },
     },
     screens: {
@@ -58,11 +56,11 @@ module.exports = {
       md: "1060px",
       lg: "1425px",
       del: "1519px",
-      xlg: "1929px",
-      imacretina21: "2048px",
-      imacretina: "2240px",
-      imacretina2016: "2560px",
-      imacpro: "3200px",
+      xlg: "1905px",
+      // imacretina21: "2048px",
+      // imacretina: "2240px",
+      // imacretina2016: "2560px",
+      // imacpro: "3200px",
     },
   },
   plugins: [],

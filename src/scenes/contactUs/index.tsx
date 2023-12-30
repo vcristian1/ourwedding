@@ -24,7 +24,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
   }
 
   return (
-    <section id="faqs" className='bg-[#C89F79] mx-auto w-full pt-24 pb-32 gsfold:py-20'>
+    <section id="faqs" className='bg-[#C89F79] mx-auto w-full pt-24 pb-32 gsfold:py-20 overflow-x-hidden'>
         <motion.div
          onViewportEnter={() => setSelectedPage(SelectedPage.Faqs)}
          className='gfold:mx-[25px] gs8:mx-[30px] xs:mx-[30px] sm:mx-[65px] ipp:mx-[90px] sp7:mx-[80px] lg:mx-[120px]'
@@ -43,8 +43,8 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             >   
             <div className='md:flex'>
                 <div>
-                    <p className='text-2xl md:text-4xl font-bold sm:text-3xl ipp:text-5xl sp7:text-[40px] lg:text-4xl'>FAQS</p>
-                    <p className="my-5 sm:text-[18px] sm:mt-6 sm:mb-6 ipp:text-[22px] sp7:text-[24px] spduo:mt-6 spduo:mb-6 gs8:mt-6 gfold:mt-6 gfold:mb-6 lg:text-[18px]">
+                    <p className='text-2xl md:text-4xl font-bold sm:text-3xl ipp:text-5xl sp7:text-[40px] lg:text-4xl xlg:text-5xl'>FAQS</p>
+                    <p className="my-5 sm:text-[18px] sm:mt-6 sm:mb-6 ipp:text-[22px] sp7:text-[24px] spduo:mt-6 spduo:mb-6 gs8:mt-6 gfold:mt-6 gfold:mb-6 lg:text-[18px] xlg:text-[20px]">
                     We're thrilled to share our special day with you and want to ensure you have all the information you need for a seamless and enjoyable celebration. Find answers to FAQs about our wedding details, RSVP, attire, and more below. For booking-related queries, contact Donna, our Travel Agent. Your presence is the greatest gift, and we look forward to celebrating this special day with you! 
                     </p>
                 </div>

@@ -2,18 +2,15 @@ import ActionButton from "../../shared/ActionButton";
 import { SelectedPage } from '../../shared/types';
 import { motion } from "framer-motion";
 
-
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
 }
 
 const Home = ({ setSelectedPage }: Props) => {
-
-
   return (
     <section
      id="home"
-     className="gap-16 gs8:bg-mainmobiles8 gs8:pt-[370px] xs:pt-[420px] xs:bg-mainmobile xr:pt-[600px] ip14:pt-[625px] ip12:pt-[665px] sm:bg-mainipad sm:pt-[725px] ipa:bg-mainipadair ipa:pt-[875px] ipp:bg-mainipadpro ipp:pt-[1050px] sp7:bg-mainsp7 sp7:pt-[1075px] spduo:bg-mainspduo spduo:pt-[445px] gfold:bg-maingalaxyfold gfold:pt-[255px] lg:bg-main lg:pt-[600px] py-10 md:h-full"
+     className="gap-16 gs8:bg-mainmobiles8 gs8:pt-[370px] xs:pt-[420px] xs:bg-mainmobile xr:pt-[600px] ip14:pt-[625px] ip12:pt-[665px] sm:bg-mainipad sm:pt-[725px] ipa:bg-mainipadair ipa:pt-[875px] ipp:bg-mainipadpro ipp:pt-[1050px] sp7:bg-mainsp7 sp7:pt-[1075px] spduo:bg-mainspduo spduo:pt-[445px] gfold:bg-maingalaxyfold gfold:pt-[255px] lg:bg-main lg:pt-[600px] del:bg-maindell xlg:bg-mainhp xlg:pt-[800px] py-10 md:h-full overflow-x-hidden"
     >
         {/* Image and Main Header Here */}
         <motion.div 
