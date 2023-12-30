@@ -71,7 +71,7 @@ const Home = ({ setSelectedPage }: Props) => {
                     </button>
                     <ActionButton 
                      setSelectedPage={setSelectedPage}
-                    > Start Booking Now
+                    > How to Book
                     </ActionButton>
                     {/* <AnchorLink
                      className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
