@@ -45,7 +45,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                         <p className="my-5 md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] xlg:text-[20px]">Our story unfolds through shared experiences—the laughter of our first date at Red Robin, the scenic roads of Colorado on our inaugural road trip, and the warmth of my 21st birthday at Four Roses Pub with her family. Further chapters include our first vacation in Arizona with my family and a Thanksgiving cruise in 2021—a celebration of our commitment to explore the world together.</p>
                         <p className="my-5 md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] xlg:text-[20px]">As we stand on the verge of matrimony, these moments, woven into the fabric of our love, resonate deeply. We invite you to join us on this special day, as we exchange vows and step into the next chapter of our journey. Let's revel in the joy of love and shared adventures!</p>
                     </div>
-                    <div className='sm:mx-[65px] ipa:mx-[100px] ipp:mx-[175px] sp7:mx-[200px] lg:mx-[20px]'>
+                    <div className='sm:mx-[80px] ipa:mx-[100px] ipp:mx-[175px] sp7:mx-[200px] lg:mx-[20px]'>
                         <img src={Cruise} alt="" className='lg:w-[1200px] lg:h-[400px]'/>
                     </div>
                 </div>

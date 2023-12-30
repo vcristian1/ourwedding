@@ -10,8 +10,8 @@ const Footer = ({ setSelectedPage }: Props) => {
     <footer className="bg-slate-100 py-5 border-t-[1.5px] border-black overflow-x-hidden">
         <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
             <div className="mt-16 basis-1/2 md:mt-0">
-                <img src={Logo} alt="logo" className="ipp:h-24 ipp:w-24 sp7:h-28 sp7:w-28 lg:w-16 lg:h-16"/>
-                <p className="mt-4 text-sm ipp:text-[20px] sp7:text-[22px] lg:text-[14px] del:text-[16px]">© Designed and Developed by Cristian C. Vargas</p>
+                <img src={Logo} alt="logo" className="sm:h-20 sm:w-20 ipp:h-24 ipp:w-24 sp7:h-28 sp7:w-28 lg:w-16 lg:h-16"/>
+                <p className="mt-4 text-sm sm:text-[16px] ipp:text-[20px] sp7:text-[22px] lg:text-[14px] del:text-[16px]">© Designed and Developed by Cristian C. Vargas</p>
             </div>
             <ul className="mt-16 basis-1/4 md:mt-4">
                 <h4 className="font-bold ipp:text-[20px] sp7:text-[22px] lg:text-[14px] del:text-[16px]">External Links</h4>

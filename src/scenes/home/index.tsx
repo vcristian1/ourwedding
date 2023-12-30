@@ -10,7 +10,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
      id="home"
-     className="gap-16 gs8:bg-mainmobiles8 gs8:pt-[370px] xs:pt-[420px] xs:bg-mainmobile xr:pt-[400px] ip14:pt-[425px] ip12:pt-[400px] pix7:pt-[400px] sm:bg-mainipad sm:pt-[725px] ipa:bg-mainipadair ipa:pt-[875px] ipp:bg-mainipadpro ipp:pt-[1050px] sp7:bg-mainsp7 sp7:pt-[1075px] spduo:bg-mainspduo spduo:pt-[445px] gfold:bg-maingalaxyfold gfold:pt-[255px] lg:bg-main lg:pt-[600px] del:bg-maindell xlg:bg-mainhp xlg:pt-[800px] py-10 md:h-full overflow-x-hidden"
+     className="gap-16 gs8:bg-mainmobiles8 gs8:pt-[250px] xs:pt-[420px] xs:bg-mainmobile xr:pt-[400px] ip14:pt-[425px] ip12:pt-[400px] pix7:pt-[400px] sm:bg-mainipad sm:pt-[525px] ipa:bg-mainipadair ipa:pt-[875px] ipp:bg-mainipadpro ipp:pt-[1050px] sp7:bg-mainsp7 sp7:pt-[1075px] spduo:bg-mainspduo spduo:pt-[445px] gfold:bg-maingalaxyfold gfold:pt-[255px] lg:bg-main lg:pt-[600px] del:bg-maindell xlg:bg-mainhp xlg:pt-[800px] py-10 md:h-full overflow-x-hidden"
     >
         {/* Image and Main Header Here */}
         <motion.div 
@@ -26,7 +26,7 @@ const Home = ({ setSelectedPage }: Props) => {
          }}
         >
             {/* Main Header Here */}
-            <div className="z-10 gs8:basis-4/5 xs:mt-10 xr:mt-18 xs:basis-4/5 mt-40 md:basis-3/5 gfold:basis-4/5 lg:mt-[-250px] ip12:mb-[200px] xr:mb-[200px] ip14:mb-[200px] pix7:mb-[265px]">
+            <div className="z-10 gs8:basis-4/5 xs:mt-10 xr:mt-18 xs:basis-4/5 mt-40 md:basis-3/5 gfold:basis-4/5 lg:mt-[-250px] ip12:mb-[200px] xr:mb-[200px] ip14:mb-[200px] pix7:mb-[265px] gs8:mb-[130px]">
                 {/* Headings Here */}
                 <motion.div 
                  className="md:-mt-20 text-white "

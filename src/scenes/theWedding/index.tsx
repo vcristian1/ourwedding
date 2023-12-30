@@ -30,7 +30,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
        }}
       >
         <div className="md:flex">
-          <div className="w-5/6 sm:text-center sm:mx-[45px] ipa:mx-[55px] ipp:mx-[65px] lg:text-left lg:w-5/6 lg:mx-[5px]">
+          <div className="w-5/6 sm:text-center sm:mx-[55px] ipa:mx-[55px] ipp:mx-[65px] lg:text-left lg:w-5/6 lg:mx-[5px]">
             <p className="text-2xl sm:text-3xl md:text-4xl ipp:text-5xl sp7:text-[40px] font-bold xlg:text-5xl">The Wedding</p>
             <p className="py-5 md:text-2xl sm:text-[20px] ipp:text-[22px] sp7:text-[24px]">
               Monday, November 4th 2024
