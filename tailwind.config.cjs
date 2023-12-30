@@ -21,7 +21,8 @@ module.exports = {
         "gradient-yellowred":
           "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
         "mobile-home": "url('./assets/HomePageGraphic.png')",
-        "main": "url('./assets/main.svg')"
+        "main": "url('./assets/main.svg')",
+        "mainmobile": "url('./assets/mainmobile.svg')"
       }),
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
@@ -36,7 +37,7 @@ module.exports = {
       },
     },
     screens: {
-      xs: "480px",
+      xs: "370px",
       sm: "768px",
       md: "1060px",
       lg: "1425px",

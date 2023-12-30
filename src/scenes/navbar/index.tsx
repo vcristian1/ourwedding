@@ -48,9 +48,9 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     </div>
                     ) : (
                         // If it is not aboveModeiumScreen then the below code will render for mobile screens
-                        <div className={`${flexBetween} gap-40`}>
-                            <button className="rounded-full bg-secondary-500 p-2" onClick={() => setIsMenuToggled(!isMenuToggled)}>
-                                <Bars3Icon className="h-6 w-6 text-white"/>
+                        <div className={`${flexBetween} xs:gap-52`}>
+                            <button className="rounded-full p-2" onClick={() => setIsMenuToggled(!isMenuToggled)}>
+                                <Bars3Icon className="h-6 w-6 text-black"/>
                             </button>
                             <img src={Logo} alt="logo" className=""/>   
                         </div>
@@ -61,7 +61,7 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
         {/* Mobile Menu Modal */}
         { !isAboveMediumScreens && isMenuToggled && (
-            <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl">
+            <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-white drop-shadow-xl">
                 {/* Close Icon Here */}
                 <div className="flex justify-end p-12">
                     <button
