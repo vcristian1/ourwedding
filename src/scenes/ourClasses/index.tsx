@@ -20,7 +20,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
     >
       <motion.div
        className="mx-auto w-5/6"
-       initial="hidden"
+       initial="visible"
        whileInView="visible"
        viewport={{ once: true, amount: 0.5 }}
        transition={{ duration: 0.5 }}
