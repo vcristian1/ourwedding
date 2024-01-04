@@ -38,7 +38,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
               <a rel="noreferrer" target="_blank" href="https://www.amazon.com/wedding/share/JackieandCristian_2024">Amazon Registry</a>
             </button>
           </div>
-          <img src={registryIcon} alt="" className="sm:mx-[75px] lg:w-[375px] ipp:mx-[175px] sp7:mx-[130px] lg:h-[375px] lg:mx-[75px]"/>
+          <img src={registryIcon} alt="" className="sm:mx-[75px] lg:w-[375px] ipp:mx-[175px] sp7:mx-[130px] lg:h-[375px] lg:mx-[75px] mbpro:mx-[75px]"/>
         </div>
       </motion.div>
 

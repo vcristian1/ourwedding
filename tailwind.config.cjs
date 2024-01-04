@@ -31,7 +31,9 @@ module.exports = {
         "mainspduo": "url('./assets/mainspduo.svg')",
         "maingalaxyfold": "url('./assets/maingalaxyfold.svg')",
         "maindell": "url('./assets/maindell.svg')",
-        "mainhp": "url('./assets/mainhp.svg')"
+        "mainhp": "url('./assets/mainhp.svg')",
+        "mainmacbookpro": "url('./assets/mainmacbookpro.svg')"
+
 
       }),
       fontFamily: {
@@ -55,6 +57,7 @@ module.exports = {
       sp7: "912px",
       ipp: "1024px",
       md: "1060px",
+      mbpro: "1280px",
       lg: "1425px",
       del: "1519px",
       xlg: "1905px",
