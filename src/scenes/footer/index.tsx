@@ -14,18 +14,18 @@ const Footer = ({ setSelectedPage }: Props) => {
                 <p className="mt-4 text-sm sm:text-[16px] ipp:text-[20px] sp7:text-[22px] lg:text-[14px] del:text-[16px] mbpro:text-[16px]">© Designed and Developed by Cristian C. Vargas</p>
             </div>
             <ul className="mt-16 basis-1/4 md:mt-4">
-                <h4 className="font-bold ipp:text-[20px] sp7:text-[22px] lg:text-[14px] del:text-[16px] mbpro:text-[18px]">External Links</h4>
+                <h4 className="font-bold ipp:text-[20px] sp7:text-[22px] lg:text-[14px] del:text-[16px] mbpro:text-[18px] gfold:text-[14px]">External Links</h4>
                 <li>
-                    <a rel="noreferrer" target="_blank" href="https://www.amazon.com/wedding/share/JackieandCristian_2024" className="del:text-[16px] lg:text-[14px] sp7:text-[22px] md:text-[15px] ipp:text-[20px] font-bold text-black hover:text-[#77BFA3] underline transition duration-500">Registry</a>
+                    <a rel="noreferrer" target="_blank" href="https://www.amazon.com/wedding/share/JackieandCristian_2024" className="del:text-[16px] lg:text-[14px] sp7:text-[22px] md:text-[15px] ipp:text-[20px] font-bold text-black hover:text-[#77BFA3] underline transition duration-500 gfold:text-[14px]">Registry</a>
                 </li>
                 <li>
-                    <a className="del:text-[16px] lg:text-[14px] md:text-[15px] ipp:text-[20px] sp7:text-[22px] font-bold text-black hover:text-[#77BFA3] underline transition duration-500" href="https://drive.google.com/file/d/1ru9RZUQwi2daCGhGJimOCFbNScOizwum/view?usp=sharing" rel="noreferrer" target="_blank">Travel Checklist</a>
+                    <a className="del:text-[16px] lg:text-[14px] md:text-[15px] ipp:text-[20px] sp7:text-[22px] gfold:text-[14px] font-bold text-black hover:text-[#77BFA3] underline transition duration-500" href="https://drive.google.com/file/d/1ru9RZUQwi2daCGhGJimOCFbNScOizwum/view?usp=sharing" rel="noreferrer" target="_blank">Travel Checklist</a>
                 </li>
                 {/* <li>
                 <a className="md:text-[15px] font-bold text-black hover:text-[#77BFA3] underline transition duration-500" href="" rel="noreferrer" target="_blank">Dreams Tulum Website</a>
                 </li> */}
             </ul>
-            <div className="mt-16 basis-1/4 md:mt-4 ipp:text-[20px] sp7:text-[22px] lg:text-[14px] del:text-[16px] mbpro:text-[16px]">
+            <div className="gfold:text-[14px] mt-16 basis-1/4 md:mt-4 ipp:text-[20px] sp7:text-[22px] lg:text-[14px] del:text-[16px] mbpro:text-[16px]">
                 <h4 className="font-bold mbpro:text-[18px]">Travel Agent Contact</h4>
                 <p className="">Donna Shapiro</p>
                 <p>dshapiro@dreamvacations.com</p>
