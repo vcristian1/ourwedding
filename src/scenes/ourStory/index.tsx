@@ -42,7 +42,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                         <p className="my-5 md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] xlg:text-[20px]">
                         The story unfolds with Cristian's shy glances at Jackie's family gatherings. Julius being her cousin and his best friend, unvoluntarily became the middle man between the two. It wasn't until courage led to a Snapchat exchange, and an invite to her 21st birthday. That day marked the start of their everlasting bond and deep connection.
                         </p>
-                        <p className="my-5 md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] xlg:text-[20px]">From their first date at Red Robin in 2017, to their first cruise in 2021 they knew they wanted to continue experiencing life together. On a cold February day in 2022, Cristian decided to ask the big question at Starved Rock State Park.</p>
+                        <p className="my-5 md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] xlg:text-[20px]">From their first date at Red Robin in 2017, to their first cruise in 2021, they knew they wanted to continue experiencing life together. On a cold February day a year later, Cristian decided to ask the big question at Starved Rock State Park.</p>
                         <p className="my-5 md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] xlg:text-[20px]">Your support over the years has truly been appreciated, and we thank you all for choosing to share this special day us. See you in Mexico!</p>
                     </div>
                     <div className='sm:mx-[80px] ipa:mx-[100px] ipp:mx-[175px] sp7:mx-[200px] lg:mx-[20px] mbpro:mx-[35px]'>
