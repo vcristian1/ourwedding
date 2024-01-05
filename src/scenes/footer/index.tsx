@@ -16,10 +16,10 @@ const Footer = ({ setSelectedPage }: Props) => {
             <ul className="mt-16 basis-1/4 md:mt-4">
                 <h4 className="font-bold ipp:text-[20px] sp7:text-[22px] lg:text-[14px] del:text-[16px] mbpro:text-[18px] gfold:text-[14px]">External Links</h4>
                 <li>
-                    <a rel="noreferrer" target="_blank" href="https://www.amazon.com/wedding/share/JackieandCristian_2024" className="del:text-[16px] lg:text-[14px] sp7:text-[22px] md:text-[15px] ipp:text-[20px] font-bold text-black hover:text-[#77BFA3] underline transition duration-500 gfold:text-[14px]">Registry</a>
+                    <a rel="noreferrer" target="_blank" href="https://www.amazon.com/wedding/share/JackieandCristian_2024" className="del:text-[16px] lg:text-[14px] sp7:text-[22px] md:text-[15px] ipp:text-[20px] text-black hover:text-[#77BFA3] underline transition duration-500 gfold:text-[14px]">Registry</a>
                 </li>
                 <li>
-                    <a className="del:text-[16px] lg:text-[14px] md:text-[15px] ipp:text-[20px] sp7:text-[22px] gfold:text-[14px] font-bold text-black hover:text-[#77BFA3] underline transition duration-500" href="https://drive.google.com/file/d/1ru9RZUQwi2daCGhGJimOCFbNScOizwum/view?usp=sharing" rel="noreferrer" target="_blank">Travel Checklist</a>
+                    <a className="del:text-[16px] lg:text-[14px] md:text-[15px] ipp:text-[20px] sp7:text-[22px] gfold:text-[14px] text-black hover:text-[#77BFA3] underline transition duration-500" href="https://drive.google.com/file/d/1ru9RZUQwi2daCGhGJimOCFbNScOizwum/view?usp=sharing" rel="noreferrer" target="_blank">Travel Checklist</a>
                 </li>
                 {/* <li>
                 <a className="md:text-[15px] font-bold text-black hover:text-[#77BFA3] underline transition duration-500" href="" rel="noreferrer" target="_blank">Dreams Tulum Website</a>
