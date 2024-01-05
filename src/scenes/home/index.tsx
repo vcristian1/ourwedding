@@ -41,7 +41,7 @@ const Home = ({ setSelectedPage }: Props) => {
                 >
                     <div>
                         <p className="gfold:text-[18px] gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl sm:text-3xl ipp:text-4xl sp7:text-[38px] lg:text-2xl mb-2">Get ready for a Wedding!</p>
-                        <p className="gfold:text-[22px] gs8:text-2xl xs:text-2xl xr:text-3xl ip12:text-2xl sm:text-4xl ipp:text-5xl sp7:text-[42px] lg:text-6xl">Cristian & Jacqueline</p>
+                        <p className="gfold:text-[22px] gs8:text-2xl xs:text-2xl xr:text-3xl ip12:text-2xl sm:text-4xl ipp:text-5xl sp7:text-[42px] lg:text-6xl">Jacqueline & Cristian</p>
                         <p className="gfold:text-[18px] gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl sm:text-3xl ipp:text-4xl sp7:text-[38px] lg:text-2xl mt-2">November 4th 2024</p>
                     </div>
                 </motion.div>
