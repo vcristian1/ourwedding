@@ -58,7 +58,7 @@ module.exports = {
       ipp: "1024px",
       md: "1060px",
       mbpro: "1280px",
-      lg: "1425px",
+      lg: "1405px",
       del: "1519px",
       xlg: "1905px",
       // imacretina21: "2048px",
