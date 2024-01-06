@@ -10,7 +10,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
      id="home"
-     className="gap-16 gs8:bg-mainmobiles8 gs8:pt-[250px] xs:pt-[420px] md:bg-mainmacbookpro xs:bg-mainmobile xr:pt-[400px] ip14:pt-[425px] ip12:pt-[400px] pix7:pt-[400px] sm:bg-mainipad sm:pt-[525px] ipa:bg-mainipadair ipa:pt-[500px] ipp:bg-mainipadpro ipp:pt-[575px] sp7:bg-mainsp7 sp7:pt-[600px] spduo:bg-mainspduo spduo:pt-[280px] gfold:bg-maingalaxyfold gfold:pt-[150px] lg:bg-main lg:pt-[500px] del:bg-maindell del:pt-[700px] xlg:bg-mainhp xlg:pt-[800px] py-10 md:h-full mbpro:bg-mainmacbookpro mbpro:pt-[800px] overflow-x-hidden"
+     className="gap-16 gs8:bg-mainmobiles8 gs8:pt-[250px] xs:pt-[420px] md:bg-mainmacbookpro xs:bg-mainmobile xr:pt-[400px] ip14:pt-[425px] ip12:pt-[400px] pix7:pt-[400px] sm:bg-mainipad sm:pt-[525px] ipa:bg-mainipadair ipa:pt-[500px] ipp:bg-mainipadpro ipp:pt-[575px] sp7:bg-mainsp7 sp7:pt-[600px] spduo:bg-mainspduo spduo:pt-[280px] gfold:bg-maingalaxyfold gfold:pt-[150px] lg:bg-main lg:pt-[600px] del:bg-maindell del:pt-[700px] xlg:bg-mainhp xlg:pt-[800px] py-10 md:h-full mbpro:bg-mainmacbookpro mbpro:pt-[600px] overflow-x-hidden"
     >
         {/* Image and Main Header Here */}
         <motion.div 
