@@ -7,7 +7,7 @@ type Props = {
     setSelectedPage: (value: SelectedPage) => void;
 }
 
-const OurClasses = ({ setSelectedPage }: Props) => {
+const Registry = ({ setSelectedPage }: Props) => {
   return (
 
   <section id="registry" className="w-full bg-white gfold:py-20 gs8:py-20 py-32 overflow-x-hidden">
@@ -60,4 +60,4 @@ const OurClasses = ({ setSelectedPage }: Props) => {
 )
 }
 
-export default OurClasses
+export default Registry

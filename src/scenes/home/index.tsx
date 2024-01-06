@@ -65,21 +65,9 @@ const Home = ({ setSelectedPage }: Props) => {
                      setSelectedPage={setSelectedPage}
                     > How to Book
                     </ActionButton>
-                    {/* <AnchorLink
-                     className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
-                     onClick={() => setSelectedPage(SelectedPage.ContactUs)}
-                     href={`#${SelectedPage.ContactUs}`}
-                    >
-                        <p>Learn More</p>
-                    </AnchorLink> */}
                 </motion.div>
             </div>
-            {/* Image Here
-            <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
-                <img src={HomePageGraphic} alt="home-page-graphic" />
-            </div> */}
         </motion.div>
-
     </section>
   )
 }

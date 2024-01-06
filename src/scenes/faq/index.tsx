@@ -1,27 +1,12 @@
 import { motion } from 'framer-motion';
 import { SelectedPage } from '../../shared/types';
-import { useForm } from 'react-hook-form';
 import faqs from "../../assets/faq.svg"
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
 }
 
-const ContactUs = ({ setSelectedPage }: Props) => {
-  const inputStyles = `w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white mt-5`
-
-  const {
-    register,
-    trigger,
-    formState: { errors }
-  } = useForm();
-
-  const onSubmit = async (e: any) => {
-    const isValid = await trigger();
-    if (!isValid) {
-        e.preventDefault();
-    }
-  }
+const FAQ = ({ setSelectedPage }: Props) => {
 
   return (
     <section id="faqs" className='bg-[#C89F79] mx-auto w-full pt-24 pb-32 gsfold:py-20 overflow-x-hidden'>
@@ -118,4 +103,4 @@ const ContactUs = ({ setSelectedPage }: Props) => {
   )
 }
 
-export default ContactUs
+export default FAQ

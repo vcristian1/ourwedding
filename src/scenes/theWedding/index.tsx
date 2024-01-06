@@ -11,7 +11,7 @@ type Props = {
     setSelectedPage: (value: SelectedPage) => void;
 }
 
-const OurClasses = ({ setSelectedPage }: Props) => {
+const TheWedding = ({ setSelectedPage }: Props) => {
   return (
 
   <section id="thewedding" className="w-full bg-[#C89F79] gfold:py-20 gs8:py-20 xs:py-20 ipa:py-22 md:py-32 overflow-x-hidden">
@@ -56,23 +56,9 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           </div>
         </div>
       </motion.div>
-
-      {/* Side Scroll Here
-      <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
-        <ul className="w-[2800px] whitespace-nowrap">
-          {classes.map((item: ClassType, index) => (
-            <Class 
-            key={`${item.name}-${index}`}
-            name={item.name}
-            description={item.description}
-            image={item.image}
-            />
-          ))}
-        </ul>
-      </div> */}
     </motion.div>
   </section>  
 )
 }
 
-export default OurClasses
+export default TheWedding

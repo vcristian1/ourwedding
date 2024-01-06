@@ -1,4 +1,3 @@
-import React from 'react'
 import { SelectedPage } from '../../shared/types';
 import { motion } from 'framer-motion';
 import Cruise from '../../assets/cruise.png'
@@ -14,7 +13,7 @@ type Props = {
     setSelectedPage: (value: SelectedPage) => void;
 }
 
-const Benefits = ({ setSelectedPage }: Props) => {
+const OurStory = ({ setSelectedPage }: Props) => {
     
   return (
     <section
@@ -70,4 +69,4 @@ const Benefits = ({ setSelectedPage }: Props) => {
   )
 }
 
-export default Benefits
+export default OurStory
