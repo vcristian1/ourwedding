@@ -7,6 +7,7 @@ import Footer from "./scenes/footer";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "./shared/types";
 import Registry from "./scenes/registry";
+import ScrollToTop from "react-scroll-to-top";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       <OurClasses setSelectedPage={setSelectedPage}/>
       <Registry setSelectedPage={setSelectedPage}/>
       <ContactUs setSelectedPage={setSelectedPage}/>
+      <ScrollToTop className='z-10 rounded-md bg-[#77BFA3] hover:bg-black transition duration-500 lg:text-[17px]' color="white" smooth viewBox="-35 0 250 250" />
       <Footer />
     </div>
   )

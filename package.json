@@ -15,7 +15,9 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-countdown-simple": "^1.0.12",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^7.43.8"
+    "react-hook-form": "^7.43.8",
+    "react-player": "^2.14.1",
+    "react-scroll-to-top": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.15.9",

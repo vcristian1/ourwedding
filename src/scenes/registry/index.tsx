@@ -38,23 +38,9 @@ const Registry = ({ setSelectedPage }: Props) => {
               <a rel="noreferrer" target="_blank" href="https://www.amazon.com/wedding/share/JackieandCristian_2024">Amazon Registry</a>
             </button>
           </div>
-          <img src={registryIcon} alt="" className="sm:mx-[75px] lg:w-[375px] ipp:mx-[175px] sp7:mx-[130px] lg:h-[375px] lg:mx-[75px] mbpro:mx-[75px]"/>
+          <img src={registryIcon} alt="" className="sm:mx-[75px] lg:w-[375px] ipp:mx-[175px] sp7:mx-[130px] lg:h-[375px] lg:mx-[75px] md:mx-[10px] md:w-[350px] mbpro:mx-[75px]"/>
         </div>
       </motion.div>
-
-      {/* Side Scroll Here
-      <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
-        <ul className="w-[2800px] whitespace-nowrap">
-          {classes.map((item: ClassType, index) => (
-            <Class 
-            key={`${item.name}-${index}`}
-            name={item.name}
-            description={item.description}
-            image={item.image}
-            />
-          ))}
-        </ul>
-      </div> */}
     </motion.div>
   </section>  
 )
