@@ -41,7 +41,7 @@ function App() {
       <OurClasses setSelectedPage={setSelectedPage}/>
       <Registry setSelectedPage={setSelectedPage}/>
       <ContactUs setSelectedPage={setSelectedPage}/>
-      <ScrollToTop className='z-10 rounded-md hover:bg-[#77BFA3] transition duration-500 lg:text-[17px]' color="black" smooth viewBox="-35 0 250 250" />
+      <ScrollToTop className='z-10 rounded-md hover:bg-[#C89F79] transition duration-500 lg:text-[17px]' color="black" smooth viewBox="-35 0 250 250" />
       <Footer />
     </div>
   )
