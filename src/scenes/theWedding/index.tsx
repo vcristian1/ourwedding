@@ -54,18 +54,18 @@ const TheWedding = ({ setSelectedPage }: Props) => {
             <p className="gfold:mt-16 sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">*Please Note: Ceremony will take place outdoors, and the Reception will be indoors.</p>
           </div>
           <div className="xs:columns-1 sm:columns-2 md:columns-3 mbpro:columns-3 xlg:columns-4">
-            <img src={wedding} alt="" className="hover:scale-105 transition duration-150"/>
-            <img src={wedding1} alt="" className="hover:scale-105 transition duration-150"/>
-            <img src={wedding2} alt="" className="hover:scale-105 transition duration-150"/>
-            <img src={wedding3} alt="" className="hover:scale-105 transition duration-150"/>
-            <img src={wedding4} alt="" className="hover:scale-105 transition duration-150"/>
-            <img src={wedding5} alt="" className="hover:scale-105 transition duration-150"/>
-            <img src={wedding6} alt="" className="hover:scale-105 transition duration-150"/>
-            <img src={wedding7} alt="" className="hover:scale-105 transition duration-150"/>
-            <img src={wedding8} alt="" className="hover:scale-105 transition duration-150"/>
-            <img src={wedding9} alt="" className="hover:scale-105 transition duration-150"/>
-            <img src={wedding10} alt="" className="hover:scale-105 transition duration-150"/>
-            <img src={wedding11} alt="" className="hover:scale-105 transition duration-150"/>
+            <img src={wedding} alt="" className=""/>
+            <img src={wedding1} alt="" className=""/>
+            <img src={wedding2} alt="" className=""/>
+            <img src={wedding3} alt="" className=""/>
+            <img src={wedding4} alt="" className=""/>
+            <img src={wedding5} alt="" className=""/>
+            <img src={wedding6} alt="" className=""/>
+            <img src={wedding7} alt="" className=""/>
+            <img src={wedding8} alt="" className=""/>
+            <img src={wedding9} alt="" className=""/>
+            <img src={wedding10} alt="" className=""/>
+            <img src={wedding11} alt="" className=""/>
           </div>
         </div>
       </motion.div>
