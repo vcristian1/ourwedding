@@ -59,7 +59,7 @@ const Home = ({ setSelectedPage }: Props) => {
                  }}
                  >
                     <button>
-                        <a rel="noreferrer" target="_blank" className='rounded-md bg-[#C89F79] gfold:text-[12px] gfold:px-[4px] gfold:py-1.5 gs8:px-3 gs8:py-1.5 xs:px-4 xs:py-1.5 xr:px-4 xr:py-2.5 px-10 py-2 ip12:px-4 ip12:py-2 sm:px-10 sm:py-3.5 hover:bg-[#77BFA3] sm:text-[18px] ipp:text-[20px] sp7:text-[22px] hover:text-white transition duration-500 lg:text-[17px]' href="https://drive.google.com/file/d/1XIF_RyEM9fjJJ-9tjhrr_AJfxycsudNi/view?usp=sharing">View Rates</a>
+                        <a rel="noreferrer" target="_blank" className='rounded-md bg-[#C89F79] gfold:text-[12px] gfold:px-[4px] gfold:py-1.5 gs8:px-3 gs8:py-1.5 xs:px-4 xs:py-1.5 xr:px-4 xr:py-2.5 px-10 py-2 ip12:px-4 ip12:py-2 sm:px-10 sm:py-3.5 hover:bg-[#77BFA3] sm:text-[18px] ipp:text-[20px] sp7:text-[22px] hover:text-white transition duration-500 lg:text-[17px]' href="https://docs.google.com/document/d/1Q40l9HnR5LCHR_k-QEac0efYCqxj60Jtt_aFt_yExU0/edit?usp=sharing">View Rates</a>
                     </button>
                     <ActionButton 
                      setSelectedPage={setSelectedPage}
