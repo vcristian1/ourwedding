@@ -19,6 +19,9 @@ type Props = {
 }
 
 const TheWedding = ({ setSelectedPage }: Props) => {
+  //Once added to the images, needs to have classes for each device so the overlay is web responsive
+  const overlayStyles = `mt-4 p-5 absolute z-36 flex h-[200px] w-[200px] flex-col items-center justify-center whitespace-normal bg-primary-500 text-center text-white opacity-0 transition duration-500 hover:opacity-90`
+
   return (
 
   <section id="thewedding" className="w-full bg-[#C89F79] gfold:py-20 gs8:py-20 xs:py-20 ipa:py-22 md:py-32 overflow-x-hidden">
