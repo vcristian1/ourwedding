@@ -25,7 +25,7 @@ const OurStory = ({ setSelectedPage }: Props) => {
         >
             {/* HEADER HERE */}
             <motion.div
-             className='w-full'
+             className='w-full gfold:text-center mbpro:text-left'
              initial="hidden"
              whileInView="visible"
              viewport={{ once: true, amount: 0.5 }}

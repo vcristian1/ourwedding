@@ -30,7 +30,7 @@ const FAQ = ({ setSelectedPage }: Props) => {
                 <div>
                     <p className='text-2xl md:text-4xl font-bold sm:text-3xl ipp:text-5xl sp7:text-[40px] lg:text-4xl xlg:text-5xl'>FAQS</p>
                     <p className="my-5 sm:text-[18px] sm:mt-6 sm:mb-6 md:text-[18px] ipp:text-[22px] sp7:text-[24px] spduo:mt-6 spduo:mb-6 gs8:mt-6 gfold:mt-6 gfold:mb-6 lg:text-[18px] xlg:text-[20px] mbpro:text-[18px]">
-                    We're thrilled to share our special day with you and want to ensure you have all the information you need for a seamless and enjoyable celebration. Find answers to FAQs about our wedding details and more below. For booking-related queries, contact Donna Shapiro our group Travel Agent whose contact information can be found at the bottom of the website. 
+                    We're thrilled to share our special day with you and want to ensure you have all the information you need for a seamless and enjoyable celebration. Find answers to frequently asked questions about our wedding details and more below. For booking-related questions, contact Donna Shapiro our group Travel Agent whose contact information can be found at the bottom of the website. 
                     </p>
                 </div>
                 <div>
@@ -48,7 +48,9 @@ const FAQ = ({ setSelectedPage }: Props) => {
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                             Where do I go to start booking"?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">All guests will need to call Donna Shapiro, our Travel Agent who will handle booking your stay for our Wedding Group. Her contact information can be found at the bottom of the website, and you will only be able to select your room, and pay the scheduled payments through her. There is a payment schedule all guests must follow, and any questions specifically related to the booking or payment process should be forwarded to Donna accordingly.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">
+                        To book your stay for our Wedding Group, please contact Donna Shapiro, our designated Travel Agent, whose contact details are listed at the bottom of the website. Room selection and payments will be managed exclusively through her. A payment schedule applies to all guests, and any inquiries regarding booking or payments should be directed to Donna.
+                        </p>
                     </div>
                     <div className="mb-10">                        
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">

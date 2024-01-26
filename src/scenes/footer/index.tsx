@@ -3,7 +3,7 @@ import Logo from "../../assets/Logo.svg";
 
 const Footer = ({ }) => {
   return (
-    <footer className="bg-slate-100 py-5 border-t-[1.5px] border-black overflow-x-hidden">
+    <footer className="bg-slate-100 py-5 shadow-xl overflow-x-hidden">
         <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
             <div className="mt-16 basis-1/2 md:mt-0">
                 <img src={Logo} alt="logo" className="sm:h-20 sm:w-20 ipp:h-24 ipp:w-24 sp7:h-28 sp7:w-28 lg:w-16 lg:h-16 mbpro:h-14 mbpro:w-14 md:h-16 md:w-16"/>
