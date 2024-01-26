@@ -11,6 +11,7 @@ body,
     width: 100%;
     font-family: "Cinzel";
     background-color: #f1f5f9;
+    @apply !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-[#77BFA3]
 }
 
 .player-wrapper {

@@ -67,5 +67,7 @@ module.exports = {
       // imacpro: "3200px",
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 };
