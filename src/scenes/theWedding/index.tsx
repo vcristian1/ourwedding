@@ -28,50 +28,226 @@ const TheWedding = ({ setSelectedPage }: Props) => {
     <motion.div
      onViewportEnter={() => setSelectedPage(SelectedPage.TheWedding)}
     >
-      <motion.div
+      <div
        className="mx-auto w-5/6"
-       initial="visible"
-       whileInView="visible"
-       viewport={{ once: true, amount: 0.5 }}
-       transition={{ duration: 0.5 }}
-       variants={{
-       hidden: { opacity:0, x:-50},
-       visible: { opacity: 1, x: 0},
-       }}
       >
-        <div className="md:flex md:gap-20">
-          <div className="gfold:text-center  lg:w-5/6 lg:mx-[5px] mbpro:mx-[-10px] mbpro:text-left">
-            <p className="text-2xl sm:text-3xl md:text-4xl ipp:text-5xl sp7:text-[40px] font-bold xlg:text-5xl">The Wedding</p>
-            <p className="py-5 md:text-2xl sm:text-[20px] ipp:text-[22px] sp7:text-[24px]">
-              Monday, November 4th 2024
-            </p>
-            <p className="md:text-2xl sm:text-[20px] ipp:text-[22px] sp7:text-[24px]">
-              Tulum, Mexico
-            </p>
-            <p className="mt-5 py-5 underline md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Ceremony</p>
-            <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[20px] mbpro:text-[18px]">Dreams Tulum Resort & Spa @ 4 PM</p>
-            <p className="py-5 underline sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Reception</p>
-            <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">TBD</p>
-            <p className="py-5 underline sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Attire</p>
-            <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">Formal Black Tie</p>
-            <p className="gfold:mt-16 sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">*Please Note: Ceremony will take place outdoors, and the Reception will be indoors.</p>
+        <div 
+          className="md:flex md:gap-20"
+        >
+          <div 
+            className="gfold:text-center  lg:w-5/6 lg:mx-[5px] mbpro:mx-[-10px] mbpro:text-left"
+          >
+            <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+            hidden: { opacity:0, x:-50},
+            visible: { opacity: 1, x: 0},
+            }}
+            >
+              <p className="text-2xl sm:text-3xl md:text-4xl ipp:text-5xl sp7:text-[40px] font-bold xlg:text-5xl">The Wedding</p>
+              <p className="py-5 md:text-2xl sm:text-[20px] ipp:text-[22px] sp7:text-[24px]">
+                Monday, November 4th 2024
+              </p>
+              <p className="md:text-2xl sm:text-[20px] ipp:text-[22px] sp7:text-[24px]">
+                Tulum, Mexico
+              </p>
+            </motion.div>
+            <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+            hidden: { opacity:0, x:-50},
+            visible: { opacity: 1, x: 0},
+            }}
+            >
+              <p className="mt-5 py-5 underline md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Ceremony</p>
+              <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[20px] mbpro:text-[18px]">Dreams Tulum Resort & Spa @ 4 PM</p>
+              <p className="py-5 underline sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Reception</p>
+              <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">TBD</p>
+              <p className="py-5 underline sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Attire</p>
+              <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">Formal Black Tie</p>
+              <p className="gfold:mt-16 sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">*Please Note: Ceremony will take place outdoors, and the Reception will be indoors.</p>
+            </motion.div>
           </div>
-          <div className="xs:columns-1 sm:columns-2 md:columns-3 mbpro:columns-3 xlg:columns-4">
-            <img src={wedding} alt="" className=""/>
-            <img src={wedding1} alt="" className=""/>
-            <img src={wedding2} alt="" className=""/>
-            <img src={wedding3} alt="" className=""/>
-            <img src={wedding4} alt="" className=""/>
-            <img src={wedding5} alt="" className=""/>
-            <img src={wedding6} alt="" className=""/>
-            <img src={wedding7} alt="" className=""/>
-            <img src={wedding8} alt="" className=""/>
-            <img src={wedding9} alt="" className=""/>
-            <img src={wedding10} alt="" className=""/>
-            <img src={wedding11} alt="" className=""/>
+          <div 
+            className="xs:columns-1 sm:columns-2 md:columns-3 mbpro:columns-3 xlg:columns-4"
+          >
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding} alt="" className=""/>
+              <p>Oceanfront Pool</p>
+            </motion.div>
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding1} alt="" className=""/>
+              <p>Oceanfront Pool</p>
+            </motion.div>            
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding2} alt="" className=""/>
+              <p>Main Pool</p>
+            </motion.div> 
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding3} alt="" className=""/>
+              <p>Main Walkway Gardens</p>
+            </motion.div> 
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding4} alt="" className=""/>
+              <p>Deluxe Garden Room</p>
+            </motion.div>             
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding5} alt="" className=""/>
+              <p>Deluxe Oceanview</p>
+            </motion.div>             
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding6} alt="" className=""/>
+              <p>Barefoot Grille Sitting</p>
+            </motion.div>             
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding7} alt="" className=""/>
+              <p>Holistic Treatment Cabin</p>
+            </motion.div>             
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding8} alt="" className=""/>
+              <p>Beach Wedding</p>
+            </motion.div> 
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding9} alt="" className=""/>
+              <p>Seaside Grill Restaurant</p>
+            </motion.div> 
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding10} alt="" className=""/>
+              <p>Rendzevous Lobby Bar</p>
+            </motion.div> 
+            <motion.div 
+              className="text-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+              hidden: { opacity:0, x:-50},
+              visible: { opacity: 1, x: 0},
+              }}
+            >
+              <img src={wedding11} alt="" className=""/>
+              <p>World Cafe Restaurant</p>
+            </motion.div> 
           </div>
         </div>
-      </motion.div>
+      </div>
     </motion.div>
   </section>  
 )

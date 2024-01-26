@@ -26,7 +26,7 @@ const OurStory = ({ setSelectedPage }: Props) => {
             {/* HEADER HERE */}
             <motion.div
              className='w-full'
-             initial="visible"
+             initial="hidden"
              whileInView="visible"
              viewport={{ once: true, amount: 0.5 }}
              transition={{ duration: 0.5 }}
@@ -48,22 +48,7 @@ const OurStory = ({ setSelectedPage }: Props) => {
                         <img src={Cruise} alt="" className='mbpro:h-[400px] mbpro:w-[2000px] md:w-[1500px] md:h-[300px] lg:w-[1200px] lg:h-[400px]'/>
                     </div>
                 </div>
-                
-            
             </motion.div>
-
-
-            {/* BENEFITS HERE */}
-            <motion.div 
-             className='mt-5 items-center  justify-between gap-8 md:flex'
-             initial="hidden"
-             whileInView="visible"
-             viewport={{ once: true, amount: 0.5 }}
-             variants={container}             
-            >
-            
-            </motion.div>
-
         </motion.div>
     </section>
   )

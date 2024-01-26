@@ -48,21 +48,21 @@ const FAQ = ({ setSelectedPage }: Props) => {
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                             Where do I go to start booking"?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">All guests will need to call Donna Shapiro, our Travel Agent who will handle booking your stay for our Wedding Group. Her contact information can be found at the bottom of the website, and you will only be able to book and pay your the scheduled payments through her. Any questions specifically related to the booking or payment process should be forwarded to Donna.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">All guests will need to call Donna Shapiro, our Travel Agent who will handle booking your stay for our Wedding Group. Her contact information can be found at the bottom of the website, and you will only be able to select your room, and pay the scheduled payments through her. There is a payment schedule all guests must follow, and any questions specifically related to the booking or payment process should be forwarded to Donna accordingly.</p>
                     </div>
                     <div className="mb-10">                        
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                             What is the payment schedule?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">The payment schedule is as follows: 20% of your balance is due by June 28th 2024, 40% of your balance by July 28th 2024, and the remaining balance is due by August 27th 2024. All scheduled payments can be made through Donna Shapiro via phone call. Her phone number can be found at the bottom of the website.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">The payment schedule is as follows: 20% of your balance is due by June 28th 2024, 40% of your balance by July 28th 2024, and your remaining balance is due by August 27th 2024. All scheduled payments can be made through Donna Shapiro via phone call. Her phone number can be found at the bottom of the website.</p>
                     </div>
                     <div className="mb-10">                        
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                             What is the cancellation policy?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">There is a cancellation policy, please reach out to Donna Shapiro our travel agent to confirm the policy details. Her contact information can be found at the bottom of the website.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">There is a cancellation policy, please reach out to Donna Shapiro our travel agent to confirm the policy details.</p>
                     </div>
                     
                 </div>

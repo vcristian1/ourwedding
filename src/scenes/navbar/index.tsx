@@ -20,7 +20,7 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
   return (
     <nav>
         <div
-         className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-4 border-b-[1.5px] border-black shadow-xl overflow-x-hidden`} 
+         className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-4 dropshadow-xl overflow-x-hidden`} 
         >
           <div className={`${flexBetween} mx-auto w-5/6`}>
             {/* Name and Menu Icon within this container */}
