@@ -10,7 +10,7 @@ type Props = {
 const Registry = ({ setSelectedPage }: Props) => {
   return (
 
-  <section id="registry" className="w-full bg-white gfold:py-20 gs8:py-20 py-32 overflow-x-hidden">
+  <section id="registry" className="w-full gfold:py-20 gs8:py-20 py-32 overflow-x-hidden">
     <motion.div
      onViewportEnter={() => setSelectedPage(SelectedPage.Registry)}
     >
