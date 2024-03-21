@@ -42,7 +42,7 @@ const Home = ({ setSelectedPage }: Props) => {
                     <div>
                         <p className="gfold:text-[18px] gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl ipa:text-2xl sm:text-3xl ipp:text-4xl ip14:text-2xl sp7:text-[38px] lg:text-2xl mb-2">Get ready for a Wedding!</p>
                         <p className="gfold:text-[22px] gs8:text-2xl xs:text-3xl xr:text-3xl ip12:text-3xl ipa:text-5xl sm:text-4xl ipp:text-5xl ip14:text-4xl sp7:text-[42px] lg:text-6xl">Jacqueline & Cristian</p>
-                        <p className="gfold:text-[18px] gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl ipa:text-2xl sm:text-3xl ipp:text-4xl ip14:text-2xl sp7:text-[38px] lg:text-2xl mt-2">November 4th 2024</p>
+                        <p className="gfold:text-[18px] gs8:text-1xl xs:text-1xl xr:text-2xl ip12:text-1xl ipa:text-2xl sm:text-3xl ipp:text-4xl ip14:text-2xl sp7:text-[38px] lg:text-2xl mt-2">September 29th 2024</p>
                     </div>
                 </motion.div>
 
@@ -58,12 +58,9 @@ const Home = ({ setSelectedPage }: Props) => {
                     visible: { opacity: 1, x: 0},
                  }}
                  >
-                    <button>
-                        <a rel="noreferrer" target="_blank" className='rounded-md bg-[#C89F79] gfold:text-[12px] gfold:px-[4px] gfold:py-1.5 gs8:px-3 gs8:py-1.5 xs:px-4 xs:py-1.5 xr:px-4 xr:py-2.5 px-10 py-2 ip12:px-4 ip12:py-2 sm:px-10 sm:py-3.5 hover:bg-[#77BFA3] sm:text-[18px] ipp:text-[20px] sp7:text-[22px] hover:text-white transition duration-500 lg:text-[17px]' href="https://drive.google.com/file/d/1XIF_RyEM9fjJJ-9tjhrr_AJfxycsudNi/view?usp=sharing">View Rates</a>
-                    </button>
                     <ActionButton 
                      setSelectedPage={setSelectedPage}
-                    > How to Book
+                    > View Registry
                     </ActionButton>
 
                 </motion.div>

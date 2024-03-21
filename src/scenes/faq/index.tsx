@@ -30,7 +30,7 @@ const FAQ = ({ setSelectedPage }: Props) => {
                 <div>
                     <p className='text-2xl md:text-4xl font-bold sm:text-3xl ipp:text-5xl sp7:text-[40px] lg:text-4xl xlg:text-5xl'>FAQS</p>
                     <p className="my-5 sm:text-[18px] sm:mt-6 sm:mb-6 md:text-[18px] ipp:text-[22px] sp7:text-[24px] spduo:mt-6 spduo:mb-6 gs8:mt-6 gfold:mt-6 gfold:mb-6 lg:text-[18px] xlg:text-[20px] mbpro:text-[18px]">
-                    We're thrilled to share our special day with you and want to ensure you have all the information you need for a seamless and enjoyable celebration. Find answers to frequently asked questions about our wedding details and more below. For booking-related questions, contact Donna Shapiro our group Travel Agent whose contact information can be found at the bottom of the website. 
+                    We're thrilled to share our special day with you and want to ensure you have all the information you need for a seamless and enjoyable celebration. Find answers to frequently asked questions about our wedding details and more below. 
                     </p>
                 </div>
                 <div>
@@ -46,25 +46,32 @@ const FAQ = ({ setSelectedPage }: Props) => {
                     <div className="mb-10">
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                            Where do I go to start booking"?
+                            Should I book a Hotel?
                         </h3>
                         <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">
-                        To book your stay for our Wedding Group, please contact Donna Shapiro, our designated Travel Agent, whose contact details are listed at the bottom of the website. Room selection and payments will be managed exclusively through her. A payment schedule applies to all guests, and any inquiries regarding booking or payments should be directed to Donna.
+                        This is all up to you. Majority of guests will be booking a hotel for Sunday night into Monday this includes guests who are local and who are flying in. For guests who are looking to book a hotel for Sunday night, we reccommend the following hotels in Hoffman Estates:
                         </p>
                     </div>
                     <div className="mb-10">                        
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                            What is the payment schedule?
+                            Is there a cocktail hour after the ceremony?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">The payment schedule is as follows: 20% of your balance is due by June 28th 2024, 40% of your balance by July 28th 2024, and your remaining balance is due by August 27th 2024. All scheduled payments can be made through Donna Shapiro via phone call. Her phone number can be found at the bottom of the website.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">We do have a cocktail hour which will be in the outdoor area and bar. During this time the Bride and Groom will be taking pictures.</p>
                     </div>
                     <div className="mb-10">                        
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                            What is the cancellation policy?
+                            Can I bring a plus one?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">There is a cancellation policy, please reach out to Donna Shapiro our travel agent to confirm the policy details.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">Unfortunately no, please do not arrive with someone who has not been included in your invitation. There will not be a seat or food available for them.</p>
+                    </div>
+                    <div className="mb-10">
+                        <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
+                            <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                            Is there a shuttle available?
+                        </h3>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">If you happen to stay at any of the reccommended hotels in Hoffman Estates there is a shuttle offered to take you to and from the Venue.</p>
                     </div>
                     
                 </div>
@@ -72,30 +79,37 @@ const FAQ = ({ setSelectedPage }: Props) => {
                     <div className="mb-10">
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                            What is the minimum number of nights I can stay?
+                            What time should we arrive for the Ceremony?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">According to the <a href="https://drive.google.com/file/d/1XIF_RyEM9fjJJ-9tjhrr_AJfxycsudNi/view?usp=sharing" rel="noreferrer" target="_blank" className=" underline hover:no-underline">rate sheet,</a> the minimum number of nights a guest can stay is 3. However, keep in mind guests arrive November 2nd and the wedding is Monday November 4th, so if you stood 3 nights you would be leaving the morning after the wedding which may not be ideal for some.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">Please be sure to arrive 20 minutes before the start of the Ceremony.</p>
                     </div>
                     <div className="mb-10">
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                            Is Dreams Tulum Resort and Spa an All-Inclusive?
+                            Will food be served?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">Dreams Tulum Resort & Spa is All-Inclusive which means your meals and drinks are included with your stay including alcohol. Feel free to bring some cash to give as tips to those who serve you throughout your stay.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">No such thing as a good time without good food! We will be catering Uncle Bub's Barbeque for our guests during the Reception.</p>
                     </div>
                     <div className="mb-10">
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                            Are kids free?
+                            Will drinks be served?
                         </h3>
-                        <p className='sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]'>Kids under the age of 3 are free, however kids from the ages of 3-12 fall under the Child Rate which can be found on the <a href="https://drive.google.com/file/d/1XIF_RyEM9fjJJ-9tjhrr_AJfxycsudNi/view?usp=sharing" rel="noreferrer" target="_blank" className=" underline hover:no-underline">Rates sheet</a></p>
+                        <p className='sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]'>We have an Open Bar for 5 hours during the Reception which includes soft drinks and alcohol. However, please bring cash to tip the bartenders.</p>
                     </div>
                     <div className="mb-10">
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                            Are Guests responsible for booking their own flights?
+                            Where are you registered?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">All guests are responsible for booking their own flights. For airport transfer arrangements, contact our travel agent Donna Shapiro to provide her with your flight information.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">We have a Wedding Registry with Amazon which you can view by clicking <a className="underline" href="https://www.amazon.com/wedding/share/JackieandCristian_2024" rel='noreferrer' target='_blank'>here!</a></p>
+                    </div>
+                    <div className="mb-10">
+                        <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
+                            <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                            What time does the Reception end?
+                        </h3>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">We have the venue until Midnight, so be ready to have a good time!</p>
                     </div>
                 </div>
             </div>

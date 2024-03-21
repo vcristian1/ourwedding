@@ -1,18 +1,15 @@
 import { SelectedPage } from "../../shared/types";
 import { motion } from "framer-motion";
-import wedding from "../../assets/wedding.svg"
-import wedding1 from "../../assets/wedding1.svg"
-import wedding2 from "../../assets/wedding2.svg"
-import wedding3 from "../../assets/wedding3.svg"
-import wedding4 from "../../assets/wedding4.svg"
-import wedding5 from "../../assets/wedding5.svg"
-import wedding6 from "../../assets/wedding6.svg"
-import wedding7 from "../../assets/wedding7.svg"
-import wedding8 from "../../assets/wedding8.svg"
-import wedding9 from "../../assets/wedding9.svg"
-import wedding10 from "../../assets/wedding10.svg"
-import wedding11 from "../../assets/wedding11.svg"
-import wedding12 from "../../assets/wedding12.svg"
+import wedding from "../../../public/wedding.png"
+import wedding1 from "../../../public/wedding1.png"
+import wedding2 from "../../../public/wedding2.png"
+import wedding3 from "../../../public/wedding3.png"
+import wedding4 from "../../../public/wedding4.png"
+import wedding5 from "../../../public/wedding5.png"
+import wedding6 from "../../../public/wedding6.png"
+import wedding7 from "../../../public/wedding7.png"
+import wedding8 from "../../../public/wedding8.png"
+
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
@@ -49,10 +46,10 @@ const TheWedding = ({ setSelectedPage }: Props) => {
             >
               <p className="text-2xl sm:text-3xl md:text-4xl ipp:text-5xl sp7:text-[40px] font-bold xlg:text-5xl">The Wedding</p>
               <p className="py-5 md:text-2xl sm:text-[20px] ipp:text-[22px] sp7:text-[24px]">
-                Monday, November 4th 2024
+                Sunday, September 29th 2024
               </p>
               <p className="md:text-2xl sm:text-[20px] ipp:text-[22px] sp7:text-[24px]">
-                Tulum, Mexico
+              700 W. Irving Park Rd, Streamwood IL 60107              
               </p>
             </motion.div>
             <motion.div
@@ -66,9 +63,9 @@ const TheWedding = ({ setSelectedPage }: Props) => {
             }}
             >
               <p className="mt-5 py-5 underline md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Ceremony</p>
-              <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[20px] mbpro:text-[18px]">Dreams Tulum Resort & Spa @ 4 PM</p>
+              <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[20px] mbpro:text-[18px]">Garden of Hoosier Grove Barn @ 3PM</p>
               <p className="py-5 underline sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Reception</p>
-              <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">TBD</p>
+              <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">Barn of Hoosier Grove Barn @ 5PM</p>
               <p className="py-5 underline sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Attire</p>
               <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">Formal Black Tie</p>
               <p className="gfold:mt-16 sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">*Please Note: Ceremony will take place outdoors, and the Reception will be indoors.</p>
@@ -78,7 +75,7 @@ const TheWedding = ({ setSelectedPage }: Props) => {
             className="xs:columns-1 sm:columns-2 md:columns-3 mbpro:columns-3 xlg:columns-4"
           >
             <motion.div 
-              className="text-center"
+              className="text-center mb-4 md:mb-4"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -89,10 +86,9 @@ const TheWedding = ({ setSelectedPage }: Props) => {
               }}
             >
               <img src={wedding} alt="" className=""/>
-              <p>Oceanfront Pool</p>
             </motion.div>
             <motion.div 
-              className="text-center"
+              className="text-center mb-4 md:mb-4"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -103,10 +99,9 @@ const TheWedding = ({ setSelectedPage }: Props) => {
               }}
             >
               <img src={wedding1} alt="" className=""/>
-              <p>Oceanfront Pool</p>
             </motion.div>            
             <motion.div 
-              className="text-center"
+              className="text-center mb-4 md:mb-4"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -117,10 +112,9 @@ const TheWedding = ({ setSelectedPage }: Props) => {
               }}
             >
               <img src={wedding2} alt="" className=""/>
-              <p>Main Pool</p>
             </motion.div> 
             <motion.div 
-              className="text-center"
+              className="text-center mb-4 md:mb-4"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -131,10 +125,9 @@ const TheWedding = ({ setSelectedPage }: Props) => {
               }}
             >
               <img src={wedding3} alt="" className=""/>
-              <p>Main Walkway Gardens</p>
             </motion.div> 
             <motion.div 
-              className="text-center"
+              className="text-center mb-4 md:mb-4"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -145,10 +138,9 @@ const TheWedding = ({ setSelectedPage }: Props) => {
               }}
             >
               <img src={wedding4} alt="" className=""/>
-              <p>Deluxe Garden Room</p>
             </motion.div>             
             <motion.div 
-              className="text-center"
+              className="text-center mb-4 md:mb-4"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -159,10 +151,9 @@ const TheWedding = ({ setSelectedPage }: Props) => {
               }}
             >
               <img src={wedding5} alt="" className=""/>
-              <p>Deluxe Oceanview</p>
-            </motion.div>             
+            </motion.div>
             <motion.div 
-              className="text-center"
+              className="text-center mb-4 md:mb-4"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -173,10 +164,9 @@ const TheWedding = ({ setSelectedPage }: Props) => {
               }}
             >
               <img src={wedding6} alt="" className=""/>
-              <p>Barefoot Grille Sitting</p>
-            </motion.div>             
+            </motion.div> 
             <motion.div 
-              className="text-center"
+              className="text-center mb-4 md:mb-4"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -187,10 +177,9 @@ const TheWedding = ({ setSelectedPage }: Props) => {
               }}
             >
               <img src={wedding7} alt="" className=""/>
-              <p>Holistic Treatment Cabin</p>
             </motion.div>             
             <motion.div 
-              className="text-center"
+              className="text-center mb-4 md:mb-4"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -201,50 +190,7 @@ const TheWedding = ({ setSelectedPage }: Props) => {
               }}
             >
               <img src={wedding8} alt="" className=""/>
-              <p>Beach Wedding</p>
-            </motion.div> 
-            <motion.div 
-              className="text-center"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.5 }}
-              transition={{ duration: 0.5 }}
-              variants={{
-              hidden: { opacity:0, x:-50},
-              visible: { opacity: 1, x: 0},
-              }}
-            >
-              <img src={wedding9} alt="" className=""/>
-              <p>Seaside Grill Restaurant</p>
-            </motion.div> 
-            <motion.div 
-              className="text-center"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.5 }}
-              transition={{ duration: 0.5 }}
-              variants={{
-              hidden: { opacity:0, x:-50},
-              visible: { opacity: 1, x: 0},
-              }}
-            >
-              <img src={wedding10} alt="" className=""/>
-              <p>Rendzevous Lobby Bar</p>
-            </motion.div> 
-            <motion.div 
-              className="text-center"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.5 }}
-              transition={{ duration: 0.5 }}
-              variants={{
-              hidden: { opacity:0, x:-50},
-              visible: { opacity: 1, x: 0},
-              }}
-            >
-              <img src={wedding11} alt="" className=""/>
-              <p>World Cafe Restaurant</p>
-            </motion.div> 
+            </motion.div>                
           </div>
         </div>
       </div>
