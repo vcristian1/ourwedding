@@ -28,7 +28,7 @@ const FAQ = ({ setSelectedPage }: Props) => {
             >   
             <div className='md:flex'>
                 <div>
-                    <p className='text-2xl md:text-4xl font-bold sm:text-3xl ipp:text-5xl sp7:text-[40px] lg:text-4xl xlg:text-5xl'>FAQS</p>
+                    <p className='text-center mbpro:text-left text-2xl md:text-4xl font-bold sm:text-3xl ipp:text-5xl sp7:text-[40px] lg:text-4xl xlg:text-5xl'>FAQS</p>
                     <p className="my-5 sm:text-[18px] sm:mt-6 sm:mb-6 md:text-[18px] ipp:text-[22px] sp7:text-[24px] spduo:mt-6 spduo:mb-6 gs8:mt-6 gfold:mt-6 gfold:mb-6 lg:text-[18px] xlg:text-[20px] mbpro:text-[18px]">
                     We're thrilled to share our special day with you and want to ensure you have all the information you need for a seamless and enjoyable celebration. Find answers to frequently asked questions about our wedding details and more below. 
                     </p>

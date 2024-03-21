@@ -72,7 +72,7 @@ const TheWedding = ({ setSelectedPage }: Props) => {
             </motion.div>
           </div>
           <div 
-            className="xs:columns-1 sm:columns-2 md:columns-3 mbpro:columns-3 xlg:columns-4"
+            className="spduo:ml-[14px] xs:columns-1 sm:columns-2 md:columns-3 mbpro:columns-3 xlg:columns-4"
           >
             <motion.div 
               className="text-center mb-4 md:mb-4"

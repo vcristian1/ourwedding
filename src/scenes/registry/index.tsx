@@ -31,7 +31,7 @@ const Registry = ({ setSelectedPage }: Props) => {
             <p className="py-5 sm:text-[20px] md:text-[17px] ipp:text-[22px] sp7:text-[24px] xlg:text-[20px]">
             For those who wish to celebrate with a tangible token of love, we have created a registry with items that reflect the love we have for the kitchen and traveling. From cozy home essentials, to experiences that will enrich our lives, your thoughtful contributions will become cherished elements in our new chapter together.
             </p>
-            <p className="py-5 sm:text-[20px] md:text-[17px] ipp:text-[22px] sp7:text-[24px xlg:text-[20px]">
+            <p className="py-5 sm:text-[20px] md:text-[17px] ipp:text-[22px] sp7:text-[24px] xlg:text-[20px]">
             We look forward to sharing the happiness of our wedding day with you. Thank you for being a part of our story.
             </p>
             <button className='md:text-center  rounded-md bg-[#C89F79] px-10 py-2 sm:px-10 sm:py-3 sm:text-[18px] ipp:text-[20px] sp7:text-[22px] hover:bg-[#77BFA3] hover:text-white transition duration-500 lg:text-[17px]'>

@@ -47,7 +47,7 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     </div>
                     ) : (
                         // If it is not aboveModeiumScreen then the below code will render for mobile screens
-                        <div className={`${flexBetween} gfold:gap-40 gs8:gap-52 xs:gap-52 sp7:gap-[300px] ip14:gap-60 sm:gap-[260px] ipa:gap-[280px] ip12:gap-[240px] ipp:gap-[325px] spduo:gap-[340px]`}>
+                        <div className={`${flexBetween} arc:gap-[630px] gfold:gap-40 gs8:gap-52 xs:gap-52 ip14:gap-60 sm:gap-[500px] ipa:gap-[560px] ip12:gap-[240px] ipp:gap-[690px] spduo:gap-[340px] sp7:gap-[600px]`}>
                             <button className="rounded-full p-2" onClick={() => setIsMenuToggled(!isMenuToggled)}>
                                 <Bars3Icon className="gfold:h-4 gfold:w-4 h-6 w-6 text-black ip12:h-6 ip12:w-6 ipp:h-10 ipp:w-10 sp7:w-[40px] sp7:h-[40px] sm:h-[30px] sm:w-[30px]"/>
                             </button>
@@ -60,7 +60,7 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
         {/* Mobile Menu Modal */}
         { !isAboveMediumScreens && isMenuToggled && (
-            <div className="fixed right-0 bottom-0 z-40 h-full gfold:w-[190px] w-[300px] bg-white drop-shadow-xl">
+            <div className="fixed right-0 bottom-0 z-40 h-full gfold:w-[190px] ipa:w-[300px] ipp:w-[350px] sm:w-[250px] w-[300px] bg-white drop-shadow-xl">
                 {/* Close Icon Here */}
                 <div className="flex justify-end p-12">
                     <button
@@ -72,7 +72,7 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     </button>
                 </div>
                 {/* MENU ITEMS */}
-                <div className="ml-[33%] flex flex-col gap-10 text-2xl gfold:ml-[40px] gfold:text-[14px] ipp:text-3xl">
+                <div className="ml-[33%] flex flex-col gap-10 text-2xl gfold:ml-[40px] gfold:text-[14px] sm:text-[20px] ipp:text-3xl ipa:text-2xl">
                     <Link page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                     <Link page="Our Story" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                     <Link page="The Wedding" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
