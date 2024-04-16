@@ -58,7 +58,7 @@ module.exports = {
       arc: "945px",
       ipp: "1024px",
       md: "1060px",
-      mbpro: "1280px",
+      mbpro: "1260px",
       lg: "1405px",
       del: "1519px",
       xlg: "1905px",

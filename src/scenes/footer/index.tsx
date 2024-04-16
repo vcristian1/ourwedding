@@ -14,6 +14,12 @@ const Footer = ({ }) => {
                 <li>
                     <a rel="noreferrer" target="_blank" href="https://www.amazon.com/wedding/share/JackieandCristian_2024" className=" del:text-[16px] lg:text-[14px] sp7:text-[22px] md:text-[16px] ipp:text-[20px] text-black hover:text-[#77BFA3] underline transition duration-500 gfold:text-[14px]">Registry</a>
                 </li>
+                <li>
+                    <a rel="noreferrer" target="_blank" href="https://forms.gle/ecJRwdxoUhYseipB8" className=" del:text-[16px] lg:text-[14px] sp7:text-[22px] md:text-[16px] ipp:text-[20px] text-black hover:text-[#77BFA3] underline transition duration-500 gfold:text-[14px]">RSVP</a>
+                </li>
+                <li>
+                    <a rel="noreferrer" target="_blank" href="https://www.ihg.com/holidayinnexpress/hotels/us/en/hoffman-estates/chips/hoteldetail" className=" del:text-[16px] lg:text-[14px] sp7:text-[22px] md:text-[16px] ipp:text-[20px] text-black hover:text-[#77BFA3] underline transition duration-500 gfold:text-[14px]">Holiday Inn Express and Suites</a>
+                </li>
             </ul>
             <div className="gfold:text-[14px] mt-16 basis-1/4 md:mt-4 ipp:text-[20px] sp7:text-[22px] lg:text-[14px] del:text-[16px] mbpro:text-[16px] md:text-[14px]">
                 <h4 className="lg:text-[16px] font-bold mbpro:text-[18px] md:text-[16px]">Groom Contact</h4>
