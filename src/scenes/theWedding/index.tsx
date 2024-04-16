@@ -63,12 +63,12 @@ const TheWedding = ({ setSelectedPage }: Props) => {
             }}
             >
               <p className="mt-5 py-5 underline md:text-[17px] sm:text-[20px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Ceremony</p>
-              <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[20px] mbpro:text-[18px]">Garden of Hoosier Grove Barn @ 3PM</p>
+              <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[20px] mbpro:text-[18px]">Garden of Hoosier Grove Barn @ 4PM, followed by Cocktail Hour @ 5PM</p>
               <p className="py-5 underline sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Reception</p>
-              <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">Barn of Hoosier Grove Barn @ 5PM</p>
+              <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">Barn of Hoosier Grove @ 6:00PM</p>
               <p className="py-5 underline sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[20px] xlg:text-[22px] mbpro:text-[20px]">Attire</p>
               <p className="sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">Formal Black Tie</p>
-              <p className="gfold:mt-16 sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">*Please Note: Ceremony will take place outdoors, and the Reception will be indoors.</p>
+              <p className="gfold:mt-16 sm:text-[20px] md:text-[18px] ipp:text-[22px] sp7:text-[24px] lg:text-[18px] xlg:text-[22px] mbpro:text-[18px]">*Please Note: Ceremony and Cocktail Hour will take place outdoors, and the Reception will be indoors.</p>
             </motion.div>
           </div>
           <div 

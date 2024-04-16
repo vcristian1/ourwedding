@@ -49,7 +49,7 @@ const FAQ = ({ setSelectedPage }: Props) => {
                             Should I book a Hotel?
                         </h3>
                         <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">
-                        This is all up to you. Majority of guests will be booking a hotel for Sunday night into Monday this includes guests who are local and who are flying in. For guests who are looking to book a hotel for Sunday night, we reccommend the following hotels in Hoffman Estates:
+                        Most our guests will be booking a hotel for Sunday night into Monday, and this includes guests who are local and who are flying in. For guests who are looking to book a hotel, we reccommend booking your stay at the <a className="underline" href="https://www.ihg.com/holidayinnexpress/hotels/us/en/hoffman-estates/chips/hoteldetail">Holiday Inn Express and Suites in Hoffman Estates</a>, IL.
                         </p>
                     </div>
                     <div className="mb-10">                        
@@ -57,21 +57,21 @@ const FAQ = ({ setSelectedPage }: Props) => {
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                             Is there a cocktail hour after the ceremony?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">We do have a cocktail hour which will be in the outdoor area and bar. During this time the Bride and Groom will be taking pictures.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">There is a cocktail hour which will be in the outdoor area and bar. During this time the Bride and Groom will be taking pictures.</p>
                     </div>
                     <div className="mb-10">                        
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                             Can I bring a plus one?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">Unfortunately no, please do not arrive with someone who has not been included in your invitation. There will not be a seat or food available for them.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">Unfortunately no, please do not arrive with someone who was not included in your original invitation. There will not be a seat or food available for them.</p>
                     </div>
-                    <div className="mb-10">
+                    <div className="mb-10">                        
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                            Is there a shuttle available?
+                            Do I need to RSVP again?
                         </h3>
-                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">If you happen to stay at any of the reccommended hotels in Hoffman Estates there is a shuttle offered to take you to and from the Venue.</p>
+                        <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">Yes! Please RSVP by clicking the following <a href="https://docs.google.com/forms/d/e/1FAIpQLSejFDctQsyCPkj5pedQr-gRDUQ1K3lVEnctsK9mWPJCaesZGA/viewform?usp=sf_link" className='underline'>link</a></p>
                     </div>
                     
                 </div>
@@ -107,7 +107,7 @@ const FAQ = ({ setSelectedPage }: Props) => {
                     <div className="mb-10">
                         <h3 className="flex items-center md:text-[18px] mbpro:text-[20px] mb-4 text-lg  sm:text-[20px] ipp:text-[22px] sp7:text-[24px] font-bold lg:text-[20px]">
                             <svg className="flex-shrink-0 mr-2 w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                            What time does the Reception end?
+                            What time does the reception end?
                         </h3>
                         <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">We have the venue until Midnight, so be ready to have a good time!</p>
                     </div>

@@ -58,11 +58,7 @@ const Home = ({ setSelectedPage }: Props) => {
                     visible: { opacity: 1, x: 0},
                  }}
                  >
-                    <ActionButton 
-                     setSelectedPage={setSelectedPage}
-                    > View Registry
-                    </ActionButton>
-
+                    <a className='rounded-md bg-[#C89F79] gfold:px-4 gfold:py-1 gfold:text-[12px] gs8:px-3 gs8:py-1.5 xs:px-4 xs:py-1.5 xr:px-4 xr:py-2.5 px-10 py-2 sm:px-10 sm:py-3.5 sm:text-[18px] ipp:text-[20px] sp7:text-[22px] hover:bg-[#77BFA3] hover:text-white transition duration-500 lg:text-[17px]' rel="noreferrer" target="_blannk" href="https://docs.google.com/forms/d/e/1FAIpQLSejFDctQsyCPkj5pedQr-gRDUQ1K3lVEnctsK9mWPJCaesZGA/viewform?usp=sf_link">RSVP</a>
                 </motion.div>
             </div>
         </motion.div>
