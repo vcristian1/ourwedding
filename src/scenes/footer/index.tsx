@@ -25,7 +25,6 @@ const Footer = ({ }) => {
                 <h4 className="lg:text-[16px] font-bold mbpro:text-[18px] md:text-[16px]">Groom Contact</h4>
                 <p className="">Cristian C. Vargas</p>
                 <p>cristian.v0223@gmail.com</p>
-                <p>+1 773-706-5634</p>
             </div>
         </div>
     </footer>
