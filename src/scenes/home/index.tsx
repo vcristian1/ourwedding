@@ -58,7 +58,7 @@ const Home = ({ setSelectedPage }: Props) => {
                     visible: { opacity: 1, x: 0},
                  }}
                  >
-                    <a className='md:text-center rounded-md bg-[#C89F79] px-10 py-2 sm:px-10 sm:py-3 sm:text-[18px] ipp:text-[20px] sp7:text-[22px] hover:bg-[#77BFA3] hover:text-white transition duration-500 lg:text-[17px]' href="https://forms.gle/ecJRwdxoUhYseipB8">RSVP</a>
+                    <a className='md:text-center rounded-md bg-[#C89F79] px-10 py-2 sm:px-10 sm:py-3 sm:text-[18px] ipp:text-[20px] sp7:text-[22px] hover:bg-[#77BFA3] hover:text-white transition duration-500 lg:text-[17px]' href="https://forms.gle/ecJRwdxoUhYseipB8" rel="noreferrer" target="_blank">RSVP</a>
                 </motion.div>
             </div>
         </motion.div>
