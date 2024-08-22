@@ -49,7 +49,7 @@ const FAQ = ({ setSelectedPage }: Props) => {
                             Should I book a Hotel?
                         </h3>
                         <p className="sm:text-[18px] sp7:text-[22px] lg:text-[18px] mbpro:text-[18px] md:text-[18px]">
-                        Most of our guests will be booking a hotel for Sunday night into Monday, and this includes guests who are local and those who are flying in. For guests who are looking to book a hotel, we reccommend booking your stay at the <a className="underline" href="https://www.ihg.com/holidayinnexpress/hotels/us/en/hoffman-estates/chips/hoteldetail">Holiday Inn Express and Suites in Hoffman Estates</a>, IL.
+                        Most of our guests will be booking a hotel for Sunday night into Monday, and this includes guests who are local and those who are flying in. For guests who are looking to book a hotel, we reccommend booking your stay at the <a className="underline" href="https://www.hyatt.com/hyatt-place/en-US/chizh-hyatt-place-chicago-hoffman-estates?icamp=hpe_hy_com_chizh">Hyatt Place Chicago/Hoffman Estates</a>. If there is limited availability at the Hyatt Place, there is also the <a className="underline" href="https://www.ihg.com/holidayinnexpress/hotels/us/en/hoffman-estates/chips/hoteldetail">Holiday Inn Express and Suites in Hoffman Estates</a>.
                         </p>
                     </div>
                     <div className="mb-10">                        

@@ -20,6 +20,9 @@ const Footer = ({ }) => {
                 <li>
                     <a rel="noreferrer" target="_blank" href="https://www.ihg.com/holidayinnexpress/hotels/us/en/hoffman-estates/chips/hoteldetail" className=" del:text-[16px] lg:text-[14px] sp7:text-[22px] md:text-[16px] ipp:text-[20px] text-black hover:text-[#77BFA3] underline transition duration-500 gfold:text-[14px]">Holiday Inn Express and Suites</a>
                 </li>
+                <li>
+                    <a rel="noreferrer" target="_blank" href="https://www.hyatt.com/hyatt-place/en-US/chizh-hyatt-place-chicago-hoffman-estates?icamp=hpe_hy_com_chizh" className=" del:text-[16px] lg:text-[14px] sp7:text-[22px] md:text-[16px] ipp:text-[20px] text-black hover:text-[#77BFA3] underline transition duration-500 gfold:text-[14px]">Hyatt Place Chicago/Hoffman Estates</a>
+                </li>
             </ul>
             <div className="gfold:text-[14px] mt-16 basis-1/4 md:mt-4 ipp:text-[20px] sp7:text-[22px] lg:text-[14px] del:text-[16px] mbpro:text-[16px] md:text-[14px]">
                 <h4 className="lg:text-[16px] font-bold mbpro:text-[18px] md:text-[16px]">Groom Contact</h4>
